@@ -167,6 +167,8 @@
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
 			<Enum>ВидыПодразделений</Enum>
+			<Report>ДвиженияТоваров</Report>
+			<Report>ВедомостьПоТоварамВТорговыхТочках</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
