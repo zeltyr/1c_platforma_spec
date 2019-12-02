@@ -5,14 +5,14 @@
 		<Code>2</Code>
 		<Description>Больничный</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
-		<Displaced>
-			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.</CalculationType>
-		</Displaced>
 	</Item>
 	<Item id="1d20004f-c1f4-4f2d-84dd-3f6dbe2c2538">
 		<Name>Оклад</Name>
 		<Code>1</Code>
 		<Description>Оклад</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Displaced>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.Больничный</CalculationType>
+		</Displaced>
 	</Item>
 </PredefinedData>

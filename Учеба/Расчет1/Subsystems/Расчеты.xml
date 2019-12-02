@@ -27,6 +27,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.ОсновныеНачисления</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Графики</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗаполнениеГрафика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.СтавкаБольничного</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПоНачислениям</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ДиаграммаГанта</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
