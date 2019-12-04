@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<ScalingMode>Compact</ScalingMode>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="56">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="57"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Подразделение" id="7">
+					<DataPath>Объект.Подразделение</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПодразделениеКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="9"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<LabelDecoration name="Декорация1" id="60">
+			<ContextMenu name="Декорация1КонтекстноеМеню" id="61"/>
+			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="62"/>
+		</LabelDecoration>
+		<UsualGroup name="Группа2" id="58">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="59"/>
+			<ChildItems>
+				<InputField name="НачалоНедели" id="10">
+					<DataPath>Объект.НачалоНедели</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>За неделю с</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НачалоНеделиКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="НачалоНеделиРасширеннаяПодсказка" id="12"/>
+					<Events>
+						<Event name="OnChange">НачалоНеделиПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="КонецНедели" id="13">
+					<DataPath>Объект.КонецНедели</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>по</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КонецНеделиКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="КонецНеделиРасширеннаяПодсказка" id="15"/>
+					<Events>
+						<Event name="OnChange">КонецНеделиПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ФактическоеВремя" id="16">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ФактическоеВремя</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ФактическоеВремяКонтекстноеМеню" id="17"/>
+			<AutoCommandBar name="ФактическоеВремяКоманднаяПанель" id="18"/>
+			<ExtendedTooltip name="ФактическоеВремяРасширеннаяПодсказка" id="19"/>
+			<SearchStringAddition name="ФактическоеВремяСтрокаПоиска" id="20">
+				<AdditionSource>
+					<Item>ФактическоеВремя</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ФактическоеВремяСтрокаПоискаКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ФактическоеВремяСтрокаПоискаРасширеннаяПодсказка" id="22"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ФактическоеВремяСостояниеПросмотра" id="23">
+				<AdditionSource>
+					<Item>ФактическоеВремя</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ФактическоеВремяСостояниеПросмотраКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ФактическоеВремяСостояниеПросмотраРасширеннаяПодсказка" id="25"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ФактическоеВремяУправлениеПоиском" id="26">
+				<AdditionSource>
+					<Item>ФактическоеВремя</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ФактическоеВремяУправлениеПоискомКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="ФактическоеВремяУправлениеПоискомРасширеннаяПодсказка" id="28"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ФактическоеВремяНомерСтроки" id="29">
+					<DataPath>Объект.ФактическоеВремя.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ФактическоеВремяНомерСтрокиКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ФактическоеВремяНомерСтрокиРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+				<InputField name="ФактическоеВремяСотрудник" id="32">
+					<DataPath>Объект.ФактическоеВремя.Сотрудник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ФактическоеВремяСотрудникКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ФактическоеВремяСотрудникРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ФактическоеВремя_1" id="35">
+					<DataPath>Объект.ФактическоеВремя._1</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пн</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<FooterHorizontalAlign>Center</FooterHorizontalAlign>
+					<ContextMenu name="ФактическоеВремя_1КонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ФактическоеВремя_1РасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="ФактическоеВремя_2" id="38">
+					<DataPath>Объект.ФактическоеВремя._2</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вт</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<FooterHorizontalAlign>Center</FooterHorizontalAlign>
+					<ContextMenu name="ФактическоеВремя_2КонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ФактическоеВремя_2РасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="ФактическоеВремя_3" id="41">
+					<DataPath>Объект.ФактическоеВремя._3</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ср</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<FooterHorizontalAlign>Center</FooterHorizontalAlign>
+					<ContextMenu name="ФактическоеВремя_3КонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ФактическоеВремя_3РасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<InputField name="ФактическоеВремя_4" id="44">
+					<DataPath>Объект.ФактическоеВремя._4</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Чт</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<FooterHorizontalAlign>Center</FooterHorizontalAlign>
+					<ContextMenu name="ФактическоеВремя_4КонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ФактическоеВремя_4РасширеннаяПодсказка" id="46"/>
+				</InputField>
+				<InputField name="ФактическоеВремя_5" id="47">
+					<DataPath>Объект.ФактическоеВремя._5</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пт</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<FooterHorizontalAlign>Center</FooterHorizontalAlign>
+					<ContextMenu name="ФактическоеВремя_5КонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ФактическоеВремя_5РасширеннаяПодсказка" id="49"/>
+				</InputField>
+				<InputField name="ФактическоеВремя_6" id="50">
+					<DataPath>Объект.ФактическоеВремя._6</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сб</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<FooterHorizontalAlign>Center</FooterHorizontalAlign>
+					<ContextMenu name="ФактическоеВремя_6КонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ФактическоеВремя_6РасширеннаяПодсказка" id="52"/>
+				</InputField>
+				<InputField name="ФактическоеВремя_7" id="53">
+					<DataPath>Объект.ФактическоеВремя._7</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вс</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<EditMode>EnterOnInput</EditMode>
+					<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+					<FooterHorizontalAlign>Center</FooterHorizontalAlign>
+					<ContextMenu name="ФактическоеВремя_7КонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="ФактическоеВремя_7РасширеннаяПодсказка" id="55"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<LabelDecoration name="Декорация2" id="63">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>8 - количество отработанных часов, Н - невыход</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Декорация2КонтекстноеМеню" id="64"/>
+			<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="65"/>
+		</LabelDecoration>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Табель</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

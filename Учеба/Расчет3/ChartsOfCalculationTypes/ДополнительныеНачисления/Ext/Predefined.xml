@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.7">
+	<Item id="37fbe164-1026-4f5a-8d30-641e615dbb11">
+		<Name>НеВыход</Name>
+		<Code>2</Code>
+		<Description>Не выход</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
+	<Item id="8bf69a0b-0a87-44e8-b202-c7d538aa0b62">
+		<Name>Телефон</Name>
+		<Code>1</Code>
+		<Description>Телефон</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
+</PredefinedData>
