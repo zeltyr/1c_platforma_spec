@@ -45,16 +45,46 @@
 			<dataPath>Валюта</dataPath>
 			<field>Валюта</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроектКод</dataPath>
+			<field>ПроектКод</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проект код</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Курс</dataPath>
+			<field>Курс</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Курс</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ВзаиморасчетыСКонтрагентамиОстатки.Контрагент КАК Контрагент,
 	ВзаиморасчетыСКонтрагентамиОстатки.Проект КАК Проект,
-	ВзаиморасчетыСКонтрагентамиОстатки.СуммаОстаток КАК СуммаВал,
+	ВЫБОР
+		КОГДА ВзаиморасчетыСКонтрагентамиОстатки.Проект = &amp;ПустаяСсылкаПроекта
+			ТОГДА 999999
+		ИНАЧЕ ВзаиморасчетыСКонтрагентамиОстатки.Проект.Код
+	КОНЕЦ КАК ПроектКод,
+	ВЫБОР
+		КОГДА ВзаиморасчетыСКонтрагентамиОстатки.Проект &lt;&gt; &amp;ПустаяСсылкаПроекта
+			ТОГДА -ВзаиморасчетыСКонтрагентамиОстатки.СуммаОстаток
+		ИНАЧЕ ВзаиморасчетыСКонтрагентамиОстатки.СуммаОстаток
+	КОНЕЦ КАК СуммаВал,
 	ВЫБОР
 		КОГДА ЕСТЬNULL(КурсыВалютСрезПоследних.Курс, 0) = 0
-			ТОГДА ВзаиморасчетыСКонтрагентамиОстатки.СуммаОстаток
-		ИНАЧЕ ВзаиморасчетыСКонтрагентамиОстатки.СуммаОстаток * КурсыВалютСрезПоследних.Курс
-	КОНЕЦ КАК СуммаРуб
+			ТОГДА 1
+		ИНАЧЕ КурсыВалютСрезПоследних.Курс
+	КОНЕЦ КАК Курс,
+	0 КАК СуммаРуб
 ИЗ
 	РегистрНакопления.ВзаиморасчетыСКонтрагентами.Остатки КАК ВзаиморасчетыСКонтрагентамиОстатки
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КурсыВалют.СрезПоследних(, ) КАК КурсыВалютСрезПоследних
@@ -67,6 +97,16 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>Валюта пред</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СуммаРуб</dataPath>
+		<expression>Курс * СуммаВал</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сумма руб</v8:content>
 			</v8:item>
 		</title>
 	</calculatedField>
@@ -94,6 +134,20 @@
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПустаяСсылкаПроекта</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Пустая ссылка проекта</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Проекты</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.Проекты.ПустаяСсылка</value>
+		<useRestriction>true</useRestriction>
 	</parameter>
 	<parameter>
 		<name>ПустаяСсылка</name>
@@ -413,6 +467,12 @@
 									<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 								</dcscor:value>
 							</dcscor:item>
+							<dcscor:item>
+								<dcscor:parameter>СтильГраницы.Снизу</dcscor:parameter>
+								<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+									<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+								</dcscor:value>
+							</dcscor:item>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
@@ -442,6 +502,12 @@
 							</dcscor:value>
 							<dcscor:item>
 								<dcscor:parameter>СтильГраницы.Слева</dcscor:parameter>
+								<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
+									<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+								</dcscor:value>
+							</dcscor:item>
+							<dcscor:item>
+								<dcscor:parameter>СтильГраницы.Сверху</dcscor:parameter>
 								<dcscor:value xsi:type="v8ui:Line" width="1" gap="false">
 									<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 								</dcscor:value>
@@ -486,6 +552,7 @@
 	</template>
 	<groupTemplate>
 		<groupField>Проект</groupField>
+		<groupField>ПроектКод</groupField>
 		<templateType>Header</templateType>
 		<template>Макет2</template>
 	</groupTemplate>
@@ -508,6 +575,7 @@
 		<groupField1>Контрагент</groupField1>
 		<templateType1>Header</templateType1>
 		<groupField2>Проект</groupField2>
+		<groupField2>ПроектКод</groupField2>
 		<templateType2>Header</templateType2>
 		<template>Макет5</template>
 	</totalFieldsTemplate>
@@ -566,6 +634,26 @@
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>СуммаВал</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Проект</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Проекты.ПустаяСсылка</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType"/>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
 			</dcsset:conditionalAppearance>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -619,14 +707,17 @@
 							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
 							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ПроектКод</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
 					</dcsset:groupItems>
 					<dcsset:order>
 						<dcsset:item xsi:type="dcsset:OrderItemField">
-							<dcsset:field>Проект</dcsset:field>
-							<dcsset:orderType>Desc</dcsset:orderType>
-						</dcsset:item>
-						<dcsset:item xsi:type="dcsset:OrderItemField">
-							<dcsset:field>Проект.Код</dcsset:field>
+							<dcsset:field>ПроектКод</dcsset:field>
 							<dcsset:orderType>Asc</dcsset:orderType>
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>

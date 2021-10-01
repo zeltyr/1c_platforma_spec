@@ -143,8 +143,8 @@
 		</Metadata>
 		<Metadata name="Language.Русский" id="20b8317c-1c58-4baa-a76a-468fdcd409ff" configVersion="fc671fd4e178b34180ecad30997eefa300000000"/>
 		<Metadata name="Report.СостояниеВзаиморасчетов" id="cdd2cc4d-b9b0-4f85-9279-5ef707d84773" configVersion="2af6699c514f0a4c8cfde43bcaeb12cb00000000"/>
-		<Metadata name="Report.СостояниеВзаиморасчетов.Template.ОсновнаяСхемаКомпоновкиДанных" id="1ed52433-7b9b-48ee-bb24-eb4f69bd4155" configVersion="6ea54323da70f64e888b80b3c93ab8a300000000"/>
-		<Metadata name="Report.СостояниеВзаиморасчетов.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="1ed52433-7b9b-48ee-bb24-eb4f69bd4155.0" configVersion="df70992bd270eb4eba3069ab116b747a00000000"/>
+		<Metadata name="Report.СостояниеВзаиморасчетов.Template.ОсновнаяСхемаКомпоновкиДанных" id="1ed52433-7b9b-48ee-bb24-eb4f69bd4155" configVersion="f3863ee706c86f46a3059f44bf87063b00000000"/>
+		<Metadata name="Report.СостояниеВзаиморасчетов.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="1ed52433-7b9b-48ee-bb24-eb4f69bd4155.0" configVersion="c4748e60abda5344bd810d4a125889b700000000"/>
 		<Metadata name="Role.ПолныеПрава" id="0fb45b41-04c3-4501-9e13-f12d94f1bade" configVersion="60209b1bc6ad994e8a5640e1552fd70400000000"/>
 		<Metadata name="Role.ПолныеПрава.Rights" id="0fb45b41-04c3-4501-9e13-f12d94f1bade.0" configVersion="98f3c067198cca45acc202e0f237f7ea00000000"/>
 		<Metadata name="Subsystem.БизнесПроцессы" id="dcc6bc47-570a-425c-933b-712a29193834" configVersion="74b50549b107114694bdfc3f6996601900000000"/>
