@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<Table name="ДвиженияУправленческий" id="7">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.RegisterRecords.Управленческий</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ДвиженияУправленческийКонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="ДвиженияУправленческийКоманднаяПанель" id="9"/>
+			<ExtendedTooltip name="ДвиженияУправленческийРасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="ДвиженияУправленческийСтрокаПоиска" id="11">
+				<AdditionSource>
+					<Item>ДвиженияУправленческий</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДвиженияУправленческийСтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ДвиженияУправленческийСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДвиженияУправленческийСостояниеПросмотра" id="14">
+				<AdditionSource>
+					<Item>ДвиженияУправленческий</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДвиженияУправленческийСостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ДвиженияУправленческийСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДвиженияУправленческийУправлениеПоиском" id="17">
+				<AdditionSource>
+					<Item>ДвиженияУправленческий</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДвиженияУправленческийУправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ДвиженияУправленческийУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ДвиженияУправленческийНомерСтроки" id="20">
+					<DataPath>Объект.RegisterRecords.Управленческий.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДвиженияУправленческийНомерСтрокиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ДвиженияУправленческийНомерСтрокиРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<InputField name="ДвиженияУправленческийПериод" id="23">
+					<DataPath>Объект.RegisterRecords.Управленческий.Period</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДвиженияУправленческийПериодКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ДвиженияУправленческийПериодРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="ДвиженияУправленческийОрганизация" id="26">
+					<DataPath>Объект.RegisterRecords.Управленческий.Организация</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДвиженияУправленческийОрганизацияКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ДвиженияУправленческийОрганизацияРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ДвиженияУправленческийСчетДт" id="29">
+					<DataPath>Объект.RegisterRecords.Управленческий.AccountDr</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДвиженияУправленческийСчетДтКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ДвиженияУправленческийСчетДтРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<ColumnGroup name="ДвиженияУправленческийГруппа1" id="62">
+					<ExtendedTooltip name="ДвиженияУправленческийГруппа1РасширеннаяПодсказка" id="63"/>
+					<ChildItems>
+						<InputField name="ДвиженияУправленческийСубконтоДт2" id="35">
+							<DataPath>Объект.RegisterRecords.Управленческий.ExtDimensionDr2</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДвиженияУправленческийСубконтоДт2КонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="ДвиженияУправленческийСубконтоДт2РасширеннаяПодсказка" id="37"/>
+						</InputField>
+						<InputField name="ДвиженияУправленческийСубконтоДт3" id="38">
+							<DataPath>Объект.RegisterRecords.Управленческий.ExtDimensionDr3</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДвиженияУправленческийСубконтоДт3КонтекстноеМеню" id="39"/>
+							<ExtendedTooltip name="ДвиженияУправленческийСубконтоДт3РасширеннаяПодсказка" id="40"/>
+						</InputField>
+						<InputField name="ДвиженияУправленческийСубконтоДт1" id="32">
+							<DataPath>Объект.RegisterRecords.Управленческий.ExtDimensionDr1</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДвиженияУправленческийСубконтоДт1КонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="ДвиженияУправленческийСубконтоДт1РасширеннаяПодсказка" id="34"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<InputField name="ДвиженияУправленческийКоличествоДт" id="41">
+					<DataPath>Объект.RegisterRecords.Управленческий.КоличествоDr</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДвиженияУправленческийКоличествоДтКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ДвиженияУправленческийКоличествоДтРасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<InputField name="ДвиженияУправленческийСчетКт" id="44">
+					<DataPath>Объект.RegisterRecords.Управленческий.AccountCr</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДвиженияУправленческийСчетКтКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ДвиженияУправленческийСчетКтРасширеннаяПодсказка" id="46"/>
+				</InputField>
+				<ColumnGroup name="ДвиженияУправленческийГруппа2" id="64">
+					<ExtendedTooltip name="ДвиженияУправленческийГруппа2РасширеннаяПодсказка" id="65"/>
+					<ChildItems>
+						<InputField name="ДвиженияУправленческийСубконтоКт1" id="47">
+							<DataPath>Объект.RegisterRecords.Управленческий.ExtDimensionCr1</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДвиженияУправленческийСубконтоКт1КонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="ДвиженияУправленческийСубконтоКт1РасширеннаяПодсказка" id="49"/>
+						</InputField>
+						<InputField name="ДвиженияУправленческийСубконтоКт2" id="50">
+							<DataPath>Объект.RegisterRecords.Управленческий.ExtDimensionCr2</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДвиженияУправленческийСубконтоКт2КонтекстноеМеню" id="51"/>
+							<ExtendedTooltip name="ДвиженияУправленческийСубконтоКт2РасширеннаяПодсказка" id="52"/>
+						</InputField>
+						<InputField name="ДвиженияУправленческийСубконтоКт3" id="53">
+							<DataPath>Объект.RegisterRecords.Управленческий.ExtDimensionCr3</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДвиженияУправленческийСубконтоКт3КонтекстноеМеню" id="54"/>
+							<ExtendedTooltip name="ДвиженияУправленческийСубконтоКт3РасширеннаяПодсказка" id="55"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<InputField name="ДвиженияУправленческийКоличествоКт" id="56">
+					<DataPath>Объект.RegisterRecords.Управленческий.КоличествоCr</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДвиженияУправленческийКоличествоКтКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ДвиженияУправленческийКоличествоКтРасширеннаяПодсказка" id="58"/>
+				</InputField>
+				<InputField name="ДвиженияУправленческийСумма" id="59">
+					<DataPath>Объект.RegisterRecords.Управленческий.Сумма</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДвиженияУправленческийСуммаКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="ДвиженияУправленческийСуммаРасширеннаяПодсказка" id="61"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Операция</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>
