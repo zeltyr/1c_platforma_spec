@@ -1,2 +1,3 @@
 *.png
+!HowTo/*/*.png
 *.dt
