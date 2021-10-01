@@ -1,9 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.10">
+	<Item id="151e96d7-be44-4659-aca4-2a7f07bde583">
+		<Name>ИнвентарныйНомер</Name>
+		<Code>000000002</Code>
+		<Description>Инв. номер</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>4</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="da4b2361-c1cc-4fcd-aec9-bd9e7b5fb410">
 		<Name>Номенклатура</Name>
 		<Code>000000001</Code>
-		<Description>Номенклатура</Description>
+		<Description>Товар</Description>
 		<Type>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Номенклатура</v8:Type>
 		</Type>

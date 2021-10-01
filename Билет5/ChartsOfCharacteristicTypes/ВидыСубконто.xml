@@ -41,6 +41,11 @@
 			<CharacteristicExtValues/>
 			<Type>
 				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>4</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 			<Hierarchical>false</Hierarchical>
 			<FoldersOnTop>true</FoldersOnTop>
