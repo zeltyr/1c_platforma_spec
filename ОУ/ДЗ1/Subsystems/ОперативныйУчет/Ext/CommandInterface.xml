@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<SubsystemsOrder>
-		<Subsystem>Subsystem.ОперативныйУчет.Subsystem.Документы</Subsystem>
-		<Subsystem>Subsystem.ОперативныйУчет.Subsystem.ОперативныйУчетОсновные</Subsystem>
-		<Subsystem>Subsystem.ОперативныйУчет.Subsystem.Отчеты</Subsystem>
-		<Subsystem>Subsystem.ОперативныйУчет.Subsystem.Справочники</Subsystem>
-	</SubsystemsOrder>
-</CommandInterface>
