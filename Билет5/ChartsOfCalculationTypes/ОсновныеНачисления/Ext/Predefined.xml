@@ -5,5 +5,14 @@
 		<Code>1</Code>
 		<Description>Оклад</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Displaced>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.Штраф</CalculationType>
+		</Displaced>
+	</Item>
+	<Item id="5d533826-179b-40f4-a5fd-467c1b8a80b2">
+		<Name>Штраф</Name>
+		<Code>2</Code>
+		<Description>Штраф</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
 </PredefinedData>

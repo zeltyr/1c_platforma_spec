@@ -71,7 +71,14 @@
 				<AccountingFlags>
 					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
 				</AccountingFlags>
-				<ExtDimensionTypes/>
+				<ExtDimensionTypes>
+					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Подразделение">
+						<Turnover>true</Turnover>
+						<AccountingFlags>
+							<Flag ref="ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой">true</Flag>
+						</AccountingFlags>
+					</ExtDimensionType>
+				</ExtDimensionTypes>
 			</Item>
 			<Item id="eb85509a-60af-4880-b660-8c70b9158956">
 				<Name>ОсновноеПроизводство</Name>
