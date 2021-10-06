@@ -207,6 +207,7 @@
 			<CommonPicture>Расчеты</CommonPicture>
 			<CommonPicture>БизнесПроцессы</CommonPicture>
 			<CommonPicture>Сервис</CommonPicture>
+			<SessionParameter>ФизЛицо</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
@@ -225,6 +226,7 @@
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Проекты</Catalog>
+			<Catalog>Должности</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
@@ -252,6 +254,8 @@
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
 			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
 			<CalculationRegister>ДополнительныеНачисления</CalculationRegister>
+			<BusinessProcess>БизнесПроцессБилета</BusinessProcess>
+			<Task>ЗадачаБилета</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

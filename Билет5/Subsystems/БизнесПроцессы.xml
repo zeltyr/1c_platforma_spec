@@ -19,6 +19,12 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КонсольЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Task.ЗадачаБилета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.БизнесПроцессБилета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Должности</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РегистрАдресации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ФизическиеЛица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Подразделения</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
