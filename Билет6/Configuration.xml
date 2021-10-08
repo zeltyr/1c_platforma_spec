@@ -241,6 +241,7 @@
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
+			<AccountingRegister>Управленческий</AccountingRegister>
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
