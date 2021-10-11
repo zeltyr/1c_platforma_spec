@@ -41,6 +41,7 @@
 			<CharacteristicExtValues/>
 			<Type>
 				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+				<v8:Type>cfg:DocumentRef.Операция</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПриходнаяНакладная</v8:Type>
 				<v8:Type>cfg:CatalogRef.Склады</v8:Type>
 			</Type>

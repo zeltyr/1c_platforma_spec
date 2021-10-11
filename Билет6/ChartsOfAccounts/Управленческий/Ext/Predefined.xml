@@ -7,7 +7,9 @@
 		<AccountType>Active</AccountType>
 		<OffBalance>false</OffBalance>
 		<Order>01</Order>
-		<AccountingFlags/>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
 			<Item id="a966ecaa-3167-464c-b43a-63024bc5f27b">
@@ -17,7 +19,9 @@
 				<AccountType>Active</AccountType>
 				<OffBalance>false</OffBalance>
 				<Order>01.01</Order>
-				<AccountingFlags/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
 			<Item id="1e616cfe-3c87-42d1-a86f-0eb8f6780d3a">
@@ -27,30 +31,26 @@
 				<AccountType>Active</AccountType>
 				<OffBalance>false</OffBalance>
 				<Order>01.02</Order>
-				<AccountingFlags/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">true</Flag>
+				</AccountingFlags>
 				<ExtDimensionTypes>
-					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура">
+					<ExtDimensionType name="">
 						<Turnover>false</Turnover>
 						<AccountingFlags>
 							<Flag ref="ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой">true</Flag>
-							<Flag ref="ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.КоличествоСклад">true</Flag>
-							<Flag ref="ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.КоличествоПартия">true</Flag>
 						</AccountingFlags>
 					</ExtDimensionType>
-					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Склады">
+					<ExtDimensionType name="">
 						<Turnover>false</Turnover>
 						<AccountingFlags>
 							<Flag ref="ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой">false</Flag>
-							<Flag ref="ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.КоличествоСклад">true</Flag>
-							<Flag ref="ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.КоличествоПартия">false</Flag>
 						</AccountingFlags>
 					</ExtDimensionType>
-					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконто.Партии">
+					<ExtDimensionType name="">
 						<Turnover>false</Turnover>
 						<AccountingFlags>
 							<Flag ref="ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммовой">true</Flag>
-							<Flag ref="ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.КоличествоСклад">false</Flag>
-							<Flag ref="ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.КоличествоПартия">true</Flag>
 						</AccountingFlags>
 					</ExtDimensionType>
 				</ExtDimensionTypes>
@@ -62,7 +62,9 @@
 				<AccountType>Active</AccountType>
 				<OffBalance>false</OffBalance>
 				<Order>01.03</Order>
-				<AccountingFlags/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
 			<Item id="29ad9958-61e8-4d6c-bcb9-a81af7d26591">
@@ -72,7 +74,9 @@
 				<AccountType>ActivePassive</AccountType>
 				<OffBalance>false</OffBalance>
 				<Order>01.04</Order>
-				<AccountingFlags/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
 			<Item id="eb85509a-60af-4880-b660-8c70b9158956">
@@ -82,7 +86,9 @@
 				<AccountType>Active</AccountType>
 				<OffBalance>false</OffBalance>
 				<Order>01.05</Order>
-				<AccountingFlags/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
 			<Item id="86f44b1f-c878-4580-9572-4382b26cf0d2">
@@ -92,7 +98,9 @@
 				<AccountType>Active</AccountType>
 				<OffBalance>false</OffBalance>
 				<Order>01.06</Order>
-				<AccountingFlags/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
 			<Item id="2e145ab2-3c9a-4b95-bf92-343dea897025">
@@ -102,7 +110,9 @@
 				<AccountType>Active</AccountType>
 				<OffBalance>false</OffBalance>
 				<Order>01.07</Order>
-				<AccountingFlags/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
 			<Item id="4f68b56d-80e3-457b-a90b-1b248171fa3b">
@@ -112,7 +122,9 @@
 				<AccountType>Active</AccountType>
 				<OffBalance>false</OffBalance>
 				<Order>01.08</Order>
-				<AccountingFlags/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
 		</ChildItems>
@@ -124,7 +136,9 @@
 		<AccountType>Passive</AccountType>
 		<OffBalance>false</OffBalance>
 		<Order>02</Order>
-		<AccountingFlags/>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
 		<ExtDimensionTypes/>
 		<ChildItems>
 			<Item id="7d506888-a3b0-4530-a0ed-3314c922d5fb">
@@ -134,7 +148,9 @@
 				<AccountType>ActivePassive</AccountType>
 				<OffBalance>false</OffBalance>
 				<Order>02.01</Order>
-				<AccountingFlags/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
 			<Item id="1c7f28eb-1917-49a2-ab84-1478ea2d3310">
@@ -144,7 +160,9 @@
 				<AccountType>ActivePassive</AccountType>
 				<OffBalance>false</OffBalance>
 				<Order>02.02</Order>
-				<AccountingFlags/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
 			<Item id="2200e5b2-ef0d-4f80-bc31-d3df56983787">
@@ -154,7 +172,9 @@
 				<AccountType>Passive</AccountType>
 				<OffBalance>false</OffBalance>
 				<Order>02.03</Order>
-				<AccountingFlags/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
 			<Item id="74161f33-f6a0-4e48-b74f-b2654269e660">
@@ -164,7 +184,9 @@
 				<AccountType>Passive</AccountType>
 				<OffBalance>false</OffBalance>
 				<Order>02.04</Order>
-				<AccountingFlags/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
 			<Item id="bdc8a351-a915-4c77-a26f-c7e97b4e4fc1">
@@ -174,7 +196,9 @@
 				<AccountType>Passive</AccountType>
 				<OffBalance>false</OffBalance>
 				<Order>02.05</Order>
-				<AccountingFlags/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
 		</ChildItems>
@@ -186,7 +210,9 @@
 		<AccountType>ActivePassive</AccountType>
 		<OffBalance>false</OffBalance>
 		<Order>03</Order>
-		<AccountingFlags/>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+		</AccountingFlags>
 		<ExtDimensionTypes/>
 	</Item>
 </PredefinedData>
