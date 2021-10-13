@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.10">
+	<Item id="33f54a51-398f-4292-b498-980f3faa0ba1">
+		<Name>Надбавка</Name>
+		<Code>1</Code>
+		<Description>Надбавка</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
+	<Item id="f86b43a9-be35-4198-8dbb-21b1bb2a9bf9">
+		<Name>ФиксированнаяСумма</Name>
+		<Code>2</Code>
+		<Description>Фиксированная сумма</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
+</PredefinedData>

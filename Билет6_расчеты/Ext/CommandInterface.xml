@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<SubsystemsOrder>
+		<Subsystem>54224d59-50bb-43f4-acfa-ba03e1943f09</Subsystem>
+		<Subsystem>a0c26bcc-0b80-4303-b582-cbda5147f6d5</Subsystem>
+		<Subsystem>Subsystem.Расчеты</Subsystem>
+		<Subsystem>Subsystem.УправляемыеФормы</Subsystem>
+	</SubsystemsOrder>
+</CommandInterface>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Recalculation uuid="9745c980-fc28-4274-980c-145ccdcdb58f">
+		<InternalInfo>
+			<xr:GeneratedType name="RecalculationRecord.ОсновныеНачисления.ПерерасчетОтпуска" category="Record">
+				<xr:TypeId>f716e45d-5ccc-4590-b795-f9f8eaa622a4</xr:TypeId>
+				<xr:ValueId>17e46b6f-12a9-499f-a7f8-298bb5824def</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="RecalculationManager.ОсновныеНачисления.ПерерасчетОтпуска" category="Manager">
+				<xr:TypeId>80264db3-74b1-40a0-89bf-3fa37042f491</xr:TypeId>
+				<xr:ValueId>1d7ad0e9-2ac4-44ee-944c-3c6f35b7d159</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="RecalculationRecordSet.ОсновныеНачисления.ПерерасчетОтпуска" category="RecordSet">
+				<xr:TypeId>a480b27c-2d7c-4d7f-8af8-d3ca9968b022</xr:TypeId>
+				<xr:ValueId>a0264cb8-65a4-4b60-aeec-36b80906fe1b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПерерасчетОтпуска</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перерасчет отпуска</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="e45847d9-c402-4376-9b6e-4c6032e79fab">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сотрудник</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<RegisterDimension>CalculationRegister.ОсновныеНачисления.Dimension.Сотрудник</RegisterDimension>
+					<LeadingRegisterData>
+						<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.ОсновныеНачисления.Dimension.Сотрудник</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.ДополнительныеНачисления.Dimension.Сотрудник</xr:Item>
+					</LeadingRegisterData>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</Recalculation>
+</MetaDataObject>
