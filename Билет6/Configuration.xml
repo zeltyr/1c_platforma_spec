@@ -223,6 +223,7 @@
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>ДополнительныеСвойстваНоменклатуры</Catalog>
+			<Catalog>ТипыЦен</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
@@ -240,6 +241,7 @@
 			<InformationRegister>ЗначенияСвойствОбъектов</InformationRegister>
 			<InformationRegister>СоставСтелажей</InformationRegister>
 			<InformationRegister>УчетнаяПолитика</InformationRegister>
+			<InformationRegister>ТипыЦен</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
