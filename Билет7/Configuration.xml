@@ -221,12 +221,15 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Подразделения</Catalog>
+			<Catalog>Договор</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
+			<Document>ПриходДенег</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
 			<Report>ПродажиЗаПериод</Report>
+			<Report>СостояниеВзаиморасчетов</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
@@ -239,6 +242,7 @@
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
+			<AccountingRegister>Управленческий</AccountingRegister>
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
