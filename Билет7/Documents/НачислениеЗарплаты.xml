@@ -192,7 +192,9 @@
 			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
-			<RegisterRecords/>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.ОсновныеНачисления</xr:Item>
+			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -210,6 +212,48 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="8c490bf2-2f24-43fa-95c5-706d1522affc">
+				<Properties>
+					<Name>ПериодРегистрации</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Период регистрации</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="156dc1c0-c492-47f7-af6b-398795fb7c83">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.НачислениеЗарплаты.ОсновныеНачисления" category="TabularSection">
@@ -285,7 +329,7 @@
 							<ExtendedEdit>false</ExtendedEdit>
 							<MinValue xsi:nil="true"/>
 							<MaxValue xsi:nil="true"/>
-							<FillChecking>DontCheck</FillChecking>
+							<FillChecking>ShowError</FillChecking>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<ChoiceParameterLinks/>
 							<ChoiceParameters/>
@@ -322,6 +366,43 @@
 							<ExtendedEdit>false</ExtendedEdit>
 							<MinValue xsi:nil="true"/>
 							<MaxValue xsi:nil="true"/>
+							<FillChecking>ShowError</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9f145669-bfa2-4d58-924c-dff19c96a78b">
+						<Properties>
+							<Name>ГрафикРаботы</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>График работы</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ГрафикиРаботы</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
 							<FillChecking>DontCheck</FillChecking>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<ChoiceParameterLinks/>
@@ -347,8 +428,6 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:ChartOfCalculationTypesRef.ДополнительныеНачисления</v8:Type>
-								<v8:Type>cfg:ChartOfCalculationTypesRef.Удержания</v8:Type>
 								<v8:Type>cfg:ChartOfCalculationTypesRef.ОсновныеНачисления</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
@@ -361,7 +440,7 @@
 							<ExtendedEdit>false</ExtendedEdit>
 							<MinValue xsi:nil="true"/>
 							<MaxValue xsi:nil="true"/>
-							<FillChecking>DontCheck</FillChecking>
+							<FillChecking>ShowError</FillChecking>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<ChoiceParameterLinks/>
 							<ChoiceParameters/>
@@ -401,7 +480,7 @@
 							<ExtendedEdit>false</ExtendedEdit>
 							<MinValue xsi:nil="true"/>
 							<MaxValue xsi:nil="true"/>
-							<FillChecking>DontCheck</FillChecking>
+							<FillChecking>ShowError</FillChecking>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<ChoiceParameterLinks/>
 							<ChoiceParameters/>
@@ -441,49 +520,7 @@
 							<ExtendedEdit>false</ExtendedEdit>
 							<MinValue xsi:nil="true"/>
 							<MaxValue xsi:nil="true"/>
-							<FillChecking>DontCheck</FillChecking>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
-							<QuickChoice>Auto</QuickChoice>
-							<CreateOnInput>Auto</CreateOnInput>
-							<ChoiceForm/>
-							<LinkByType/>
-							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-							<Indexing>DontIndex</Indexing>
-							<FullTextSearch>Use</FullTextSearch>
-							<DataHistory>Use</DataHistory>
-						</Properties>
-					</Attribute>
-					<Attribute uuid="17452e63-2ff1-427a-8f58-2c1003d769b4">
-						<Properties>
-							<Name>Размер</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Размер</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>10</v8:Digits>
-									<v8:FractionDigits>2</v8:FractionDigits>
-									<v8:AllowedSign>Any</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-							<PasswordMode>false</PasswordMode>
-							<Format/>
-							<EditFormat/>
-							<ToolTip/>
-							<MarkNegatives>false</MarkNegatives>
-							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
-							<MinValue xsi:nil="true"/>
-							<MaxValue xsi:nil="true"/>
-							<FillChecking>DontCheck</FillChecking>
+							<FillChecking>ShowError</FillChecking>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<ChoiceParameterLinks/>
 							<ChoiceParameters/>

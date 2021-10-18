@@ -222,14 +222,17 @@
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Договор</Catalog>
+			<Catalog>ГрафикиРаботы</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
 			<Document>ПриходДенег</Document>
+			<Document>Табель</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
 			<Report>ПродажиЗаПериод</Report>
 			<Report>СостояниеВзаиморасчетов</Report>
+			<Report>НачисленияСотрудникам</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
@@ -237,6 +240,7 @@
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
 			<InformationRegister>УчетнаяПолитика</InformationRegister>
+			<InformationRegister>РабочееВремяСотрудников</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
@@ -246,6 +250,7 @@
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
+			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

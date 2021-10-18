@@ -17,7 +17,21 @@
 				<xr:Ref>CommonPicture.Расчеты</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Content/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГрафикиРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РабочееВремяСотрудников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Табель</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ОсновныеНачисления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.ОсновныеНачисления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Подразделения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ФизическиеЛица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеЗарплаты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КонсольЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗаполнениеГрафика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СведенияОСотрудниках</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикиРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.НачисленияСотрудникам</xr:Item>
+			</Content>
 		</Properties>
 		<ChildObjects/>
 	</Subsystem>
