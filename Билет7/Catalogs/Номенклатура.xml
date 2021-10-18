@@ -363,6 +363,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Form>ФормаВыбора</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
