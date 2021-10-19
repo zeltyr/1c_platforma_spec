@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.10">
+	<Item id="6c6eb145-c78c-4944-8916-a87bdab7b03a">
+		<Name>ВозвратыПокупателей</Name>
+		<Code>000000005</Code>
+		<Description>Возвраты покупателей</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="76c7547a-cb66-434e-bc1e-6edcf1fe7846">
+		<Name>ЗакупкаТовара</Name>
+		<Code>000000002</Code>
+		<Description>Закупка товара</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="07520ba0-84e9-430d-8ea8-de243a93f27c">
+		<Name>Зарплата</Name>
+		<Code>000000003</Code>
+		<Description>Зарплата</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="02602aa6-bd52-4e07-aaa6-c9586c2ffb78">
+		<Name>ОплатаПокупателей</Name>
+		<Code>000000004</Code>
+		<Description>Оплата покупателей</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="61674811-e401-4d3e-99ef-218116c49edc">
+		<Name>ОплатаПоставщикам</Name>
+		<Code>000000001</Code>
+		<Description>Оплата поставщикам</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
