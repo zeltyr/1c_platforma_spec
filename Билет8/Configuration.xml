@@ -207,7 +207,11 @@
 			<CommonPicture>Расчеты</CommonPicture>
 			<CommonPicture>БизнесПроцессы</CommonPicture>
 			<CommonPicture>Сервис</CommonPicture>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<Role>ПолныеПрава</Role>
 			<CommonModule>ОперУчет</CommonModule>
+			<FunctionalOption>ОтветственныйМенеджер</FunctionalOption>
+			<FunctionalOptionsParameter>Менеджер</FunctionalOptionsParameter>
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
 			<CommandGroup>ПланыВидовХарактеристик</CommandGroup>
@@ -244,6 +248,7 @@
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
 			<InformationRegister>ЗначенияСвойствОбъектов</InformationRegister>
 			<InformationRegister>ШкалаЧасовойСтавки</InformationRegister>
+			<InformationRegister>ДоступностьПоляМенеджер</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<AccumulationRegister>Бюджет</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
