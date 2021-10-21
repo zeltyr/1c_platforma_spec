@@ -215,6 +215,8 @@
 			<CommandGroup>ПланыВидовРасчета</CommandGroup>
 			<CommandGroup>РегистрыСведений</CommandGroup>
 			<CommandGroup>РегистрыНакопления</CommandGroup>
+			<CommandGroup>РегистрыБухгалтерии</CommandGroup>
+			<CommandGroup>РегистрыРасчета</CommandGroup>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Контрагенты</Catalog>
@@ -233,6 +235,7 @@
 			<Enum>ВидыНоменклатуры</Enum>
 			<Report>ПланФактБюджета</Report>
 			<Report>Продажи</Report>
+			<Report>НачисленияСотрудникам</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
@@ -240,6 +243,7 @@
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
 			<InformationRegister>ЗначенияСвойствОбъектов</InformationRegister>
+			<InformationRegister>ШкалаЧасовойСтавки</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<AccumulationRegister>Бюджет</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
@@ -249,6 +253,8 @@
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
+			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
+			<CalculationRegister>ДополнительныеНачисления</CalculationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

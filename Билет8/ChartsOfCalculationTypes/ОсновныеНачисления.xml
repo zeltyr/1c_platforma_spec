@@ -83,7 +83,7 @@
 			<BasedOn/>
 			<DependenceOnCalculationTypes>DontUse</DependenceOnCalculationTypes>
 			<BaseCalculationTypes/>
-			<ActionPeriodUse>false</ActionPeriodUse>
+			<ActionPeriodUse>true</ActionPeriodUse>
 			<StandardAttributes>
 				<xr:StandardAttribute name="PredefinedDataName">
 					<xr:LinkByType/>
