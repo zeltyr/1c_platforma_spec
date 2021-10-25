@@ -224,6 +224,7 @@
 			<Catalog>ХарактеристикиНоменклатуры</Catalog>
 			<Catalog>ЗначенияСвойствНоменклатуры</Catalog>
 			<Catalog>Склады</Catalog>
+			<Catalog>ГрафикиРаботы</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
@@ -232,6 +233,7 @@
 			<Enum>ВидыНоменклатуры</Enum>
 			<Report>ВедомостьТоваров</Report>
 			<Report>ЗадолженностиАгентам</Report>
+			<Report>ОтчетПоБольничному</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
@@ -246,6 +248,7 @@
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
+			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
