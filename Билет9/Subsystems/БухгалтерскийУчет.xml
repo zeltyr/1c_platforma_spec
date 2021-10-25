@@ -17,7 +17,20 @@
 				<xr:Ref>CommonPicture.БухгалтерскийУчет</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Content/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Склады</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccountingRegister.Управленческий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ФизическиеЛица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РасходнаяНакладная</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Операция</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КонсольЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ВидыСубконто</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfAccounts.Управленческий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Валюты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ЗадолженностиАгентам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КурсыВалют</xr:Item>
+			</Content>
 		</Properties>
 		<ChildObjects/>
 	</Subsystem>
