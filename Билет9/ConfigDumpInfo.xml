@@ -33,9 +33,12 @@
 		<Metadata name="Catalog.Подразделения" id="0ae5fb09-efcf-475c-814b-ece12f1c6072" configVersion="8b6a534eac217a408199a4fd28ebdf0c00000000"/>
 		<Metadata name="Catalog.Подразделения.Predefined" id="0ae5fb09-efcf-475c-814b-ece12f1c6072.1c" configVersion="7ca010d091af2b4e9a5df2b557983de800000000"/>
 		<Metadata name="Catalog.Склады" id="37e95cdc-c604-4e47-b65b-99f88a49c39f" configVersion="541d89105ece45478acef5cb8065a24700000000"/>
-		<Metadata name="Catalog.ФизическиеЛица" id="c5838cc9-53d7-46b5-9781-2a7577a974d0" configVersion="11e3740e71eb324e9705e3100716a6de00000000">
+		<Metadata name="Catalog.ФизическиеЛица" id="c5838cc9-53d7-46b5-9781-2a7577a974d0" configVersion="f20bc9d719ad074dab6787555ae365ff00000000">
+			<Metadata name="Catalog.ФизическиеЛица.Attribute.Изображение" id="79813ee3-68df-454c-acbc-8e50e4eb2dd9"/>
 			<Metadata name="Catalog.ФизическиеЛица.Attribute.Валюта" id="c0de5e5e-396e-443f-ad0d-080dda392686"/>
 		</Metadata>
+		<Metadata name="Catalog.ФизическиеЛица.Form.ФормаЭлемента" id="dac58a8f-49d6-477b-b0f6-acfc7dfe3758" configVersion="2dcf8f5813da364d99aface952ce6d4300000000"/>
+		<Metadata name="Catalog.ФизическиеЛица.Form.ФормаЭлемента.Form" id="dac58a8f-49d6-477b-b0f6-acfc7dfe3758.0" configVersion="11e5cf759095c047aecfad38b7f1e13000000000"/>
 		<Metadata name="Catalog.ФизическиеЛица.Predefined" id="c5838cc9-53d7-46b5-9781-2a7577a974d0.1c" configVersion="507ec3cf0e5761479230ae640f44e53900000000"/>
 		<Metadata name="Catalog.ХарактеристикиНоменклатуры" id="3379d381-b56d-4e18-a43e-e45852411b4e" configVersion="08013cd5369fd04995edc05f0f685e3000000000">
 			<Metadata name="Catalog.ХарактеристикиНоменклатуры.TabularSection.Свойства" id="567eb8ef-901e-41c4-8b1f-84452a668e34"/>

@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Catalog uuid="c5838cc9-53d7-46b5-9781-2a7577a974d0">
+	<Catalog uuid="15702a19-91be-4b57-9173-1e641a29e893">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ФизическиеЛица" category="Object">
-				<xr:TypeId>5153706b-bffc-42f4-afe9-e4c5df99ca89</xr:TypeId>
-				<xr:ValueId>64640db8-0f1a-42a0-9064-a73627d36acb</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Валюты" category="Object">
+				<xr:TypeId>31dae6e6-fd55-4a28-beb3-6a3eb681ff69</xr:TypeId>
+				<xr:ValueId>145a6d5e-4649-4843-98df-2934e74d973c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ФизическиеЛица" category="Ref">
-				<xr:TypeId>7c5fdab2-d9ca-490c-af9c-021b7268bc88</xr:TypeId>
-				<xr:ValueId>c0e21149-620c-4e7d-a373-2f61e0b1ee87</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Валюты" category="Ref">
+				<xr:TypeId>16fd2498-948c-4723-89a4-96617e8deb47</xr:TypeId>
+				<xr:ValueId>71f5ee76-8e89-4cc3-9920-054381fc1516</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ФизическиеЛица" category="Selection">
-				<xr:TypeId>33c67d15-3a87-4aae-bb88-6ae7b91f071b</xr:TypeId>
-				<xr:ValueId>dac85acc-e02d-455a-b481-44342b3627ff</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Валюты" category="Selection">
+				<xr:TypeId>528bc4b9-d325-4932-a6a4-6b555b35e103</xr:TypeId>
+				<xr:ValueId>48195ae0-79a6-41cf-a29a-5de6e542be9d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ФизическиеЛица" category="List">
-				<xr:TypeId>206f7221-3f8f-407a-afe9-586639e20554</xr:TypeId>
-				<xr:ValueId>7e98b4db-6171-4538-a61e-b9d61c8a63b7</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Валюты" category="List">
+				<xr:TypeId>5e7d8b23-89b5-4255-8ee3-4b03991ff9d0</xr:TypeId>
+				<xr:ValueId>cf9f3d0d-68b2-4668-9ad0-41618d832b00</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ФизическиеЛица" category="Manager">
-				<xr:TypeId>d87e687e-e05a-4aed-9e3c-725162c0e77b</xr:TypeId>
-				<xr:ValueId>cf70c3f1-9c47-483b-8ac2-153f1fe671e8</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Валюты" category="Manager">
+				<xr:TypeId>1cfcd313-2c36-4276-9ff4-22ee09bfd43e</xr:TypeId>
+				<xr:ValueId>14544f55-c234-4087-9787-014137287d49</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ФизическиеЛица</Name>
+			<Name>Валюты</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Физические лица</v8:content>
+					<v8:content>Валюты</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -40,13 +40,13 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>25</CodeLength>
+			<CodeLength>3</CodeLength>
 			<DescriptionLength>25</DescriptionLength>
-			<CodeType>String</CodeType>
-			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<CodeType>Number</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
 			<CheckUnique>true</CheckUnique>
-			<Autonumbering>true</Autonumbering>
+			<Autonumbering>false</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<StandardAttributes>
 				<xr:StandardAttribute name="PredefinedDataName">
@@ -286,17 +286,17 @@
 			</StandardAttributes>
 			<Characteristics/>
 			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
-			<EditType>InDialog</EditType>
+			<EditType>InList</EditType>
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.ФизическиеЛица.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.ФизическиеЛица.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Валюты.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Валюты.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.ФизическиеЛица.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm/>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
@@ -322,88 +322,6 @@
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
-		<ChildObjects>
-			<Attribute uuid="c0de5e5e-396e-443f-ad0d-080dda392686">
-				<Properties>
-					<Name>Валюта</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Валюта</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="79813ee3-68df-454c-acbc-8e50e4eb2dd9">
-				<Properties>
-					<Name>Изображение</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Изображение</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>v8:ValueStorage</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Form>ФормаЭлемента</Form>
-		</ChildObjects>
+		<ChildObjects/>
 	</Catalog>
 </MetaDataObject>

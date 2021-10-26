@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Catalog uuid="c5838cc9-53d7-46b5-9781-2a7577a974d0">
+	<Catalog uuid="a53f7b6b-7cdb-4a54-9b8c-162cb9cef6c8">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ФизическиеЛица" category="Object">
-				<xr:TypeId>5153706b-bffc-42f4-afe9-e4c5df99ca89</xr:TypeId>
-				<xr:ValueId>64640db8-0f1a-42a0-9064-a73627d36acb</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Номенклатура" category="Object">
+				<xr:TypeId>9e957ba8-22a7-48ff-884f-f8aaf770e0d3</xr:TypeId>
+				<xr:ValueId>db341001-20a3-409a-ac1f-55cef5651852</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ФизическиеЛица" category="Ref">
-				<xr:TypeId>7c5fdab2-d9ca-490c-af9c-021b7268bc88</xr:TypeId>
-				<xr:ValueId>c0e21149-620c-4e7d-a373-2f61e0b1ee87</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Номенклатура" category="Ref">
+				<xr:TypeId>28eff5b8-68db-4b95-a69d-bbb4e39da98f</xr:TypeId>
+				<xr:ValueId>8a040ada-ac3b-4422-bdf5-935fbda4382d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ФизическиеЛица" category="Selection">
-				<xr:TypeId>33c67d15-3a87-4aae-bb88-6ae7b91f071b</xr:TypeId>
-				<xr:ValueId>dac85acc-e02d-455a-b481-44342b3627ff</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Номенклатура" category="Selection">
+				<xr:TypeId>a8a88d07-6531-4f2d-aeba-885cbbc7189a</xr:TypeId>
+				<xr:ValueId>992c3272-dc1c-4fa9-80b3-98eee3129867</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ФизическиеЛица" category="List">
-				<xr:TypeId>206f7221-3f8f-407a-afe9-586639e20554</xr:TypeId>
-				<xr:ValueId>7e98b4db-6171-4538-a61e-b9d61c8a63b7</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Номенклатура" category="List">
+				<xr:TypeId>c597f8cb-b2d5-4a12-930d-7a2ef6f9abc9</xr:TypeId>
+				<xr:ValueId>0403eefc-11a0-4614-a360-8f2ab9339b62</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ФизическиеЛица" category="Manager">
-				<xr:TypeId>d87e687e-e05a-4aed-9e3c-725162c0e77b</xr:TypeId>
-				<xr:ValueId>cf70c3f1-9c47-483b-8ac2-153f1fe671e8</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Номенклатура" category="Manager">
+				<xr:TypeId>554861a4-cd0b-4576-a740-c82db1af8906</xr:TypeId>
+				<xr:ValueId>f53a70bc-ab8c-4f0b-b182-677a5d6ddce9</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ФизическиеЛица</Name>
+			<Name>Номенклатура</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Физические лица</v8:content>
+					<v8:content>Номенклатура</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<Hierarchical>false</Hierarchical>
+			<Hierarchical>true</Hierarchical>
 			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
 			<LimitLevelCount>false</LimitLevelCount>
 			<LevelCount>2</LevelCount>
@@ -40,10 +40,10 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>25</CodeLength>
-			<DescriptionLength>25</DescriptionLength>
-			<CodeType>String</CodeType>
-			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>80</DescriptionLength>
+			<CodeType>Number</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
@@ -290,13 +290,13 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.ФизическиеЛица.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.ФизическиеЛица.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Номенклатура.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Номенклатура.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.ФизическиеЛица.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm/>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
@@ -323,18 +323,18 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="c0de5e5e-396e-443f-ad0d-080dda392686">
+			<Attribute uuid="3999e7db-593c-422f-b9f9-cb647197e780">
 				<Properties>
-					<Name>Валюта</Name>
+					<Name>ВидНоменклатуры</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Валюта</v8:content>
+							<v8:content>Вид номенклатуры</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+						<v8:Type>cfg:EnumRef.ВидыНоменклатуры</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -347,8 +347,8 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
+					<FillValue xsi:type="xr:DesignTimeRef">Enum.ВидыНоменклатуры.EnumValue.Продукт</FillValue>
+					<FillChecking>ShowError</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
@@ -363,47 +363,6 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="79813ee3-68df-454c-acbc-8e50e4eb2dd9">
-				<Properties>
-					<Name>Изображение</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Изображение</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>v8:ValueStorage</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
