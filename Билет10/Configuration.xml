@@ -227,14 +227,19 @@
 			<Catalog>ХарактеристикаНоменклатуры</Catalog>
 			<Catalog>НаборыНоменклатуры</Catalog>
 			<Catalog>ЗначенияСвойствХарактеристик</Catalog>
+			<Catalog>Склады</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
 			<Document>ИзменениеСоставаНабора</Document>
 			<Document>Комплектация</Document>
+			<Document>Отправление</Document>
+			<Document>Прибытие</Document>
+			<Document>Операция</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
 			<Report>ВедомостьПродуктовИБлюд</Report>
+			<Report>НедошедшиеТовары</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
@@ -246,6 +251,7 @@
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
+			<AccountingRegister>Управленческий</AccountingRegister>
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
