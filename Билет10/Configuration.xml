@@ -207,6 +207,7 @@
 			<CommonPicture>Расчеты</CommonPicture>
 			<CommonPicture>БизнесПроцессы</CommonPicture>
 			<CommonPicture>Сервис</CommonPicture>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
@@ -259,6 +260,8 @@
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
 			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
+			<BusinessProcess>БизнесПроцесс</BusinessProcess>
+			<Task>Задача</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
