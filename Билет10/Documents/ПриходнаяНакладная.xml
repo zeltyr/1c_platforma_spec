@@ -352,16 +352,16 @@
 					</Attribute>
 					<Attribute uuid="a30ae86b-0b75-4b9f-b7b0-07645f69e7fe">
 						<Properties>
-							<Name>Характеристика</Name>
+							<Name>Свойство</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Характеристика</v8:content>
+									<v8:content>Свойство</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.ХарактеристикаНоменклатуры</v8:Type>
+								<v8:Type>cfg:CatalogRef.СвойстваНоменклатуры</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -375,13 +375,7 @@
 							<MaxValue xsi:nil="true"/>
 							<FillChecking>ShowError</FillChecking>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks>
-								<xr:Link>
-									<xr:Name>Отбор.Владелец</xr:Name>
-									<xr:DataPath xsi:type="xs:string">Document.ПриходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Номенклатура</xr:DataPath>
-									<xr:ValueChange>Clear</xr:ValueChange>
-								</xr:Link>
-							</ChoiceParameterLinks>
+							<ChoiceParameterLinks/>
 							<ChoiceParameters/>
 							<QuickChoice>Auto</QuickChoice>
 							<CreateOnInput>Auto</CreateOnInput>

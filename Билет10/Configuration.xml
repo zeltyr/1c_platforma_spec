@@ -224,9 +224,9 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Подразделения</Catalog>
-			<Catalog>ХарактеристикаНоменклатуры</Catalog>
 			<Catalog>НаборыНоменклатуры</Catalog>
-			<Catalog>ЗначенияСвойствХарактеристик</Catalog>
+			<Catalog>СвойстваНоменклатуры</Catalog>
+			<Catalog>ЗначенияСвойств</Catalog>
 			<Catalog>Склады</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
@@ -247,6 +247,7 @@
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
 			<InformationRegister>СоставНабора</InformationRegister>
+			<InformationRegister>ЗначенияСвойств</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>

@@ -79,7 +79,7 @@
 							<ExtendedTooltip name="ДвиженияОстаткиНоменклатурыНоменклатураРасширеннаяПодсказка" id="31"/>
 						</InputField>
 						<InputField name="ДвиженияОстаткиНоменклатурыХарактеристика" id="32">
-							<DataPath>Объект.RegisterRecords.ОстаткиНоменклатуры.Характеристика</DataPath>
+							<DataPath>Объект.RegisterRecords.ОстаткиНоменклатуры.Свойство</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="ДвиженияОстаткиНоменклатурыХарактеристикаКонтекстноеМеню" id="33"/>
 							<ExtendedTooltip name="ДвиженияОстаткиНоменклатурыХарактеристикаРасширеннаяПодсказка" id="34"/>

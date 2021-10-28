@@ -38,9 +38,9 @@
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<CharacteristicExtValues>Catalog.ЗначенияСвойствХарактеристик</CharacteristicExtValues>
+			<CharacteristicExtValues>Catalog.ЗначенияСвойств</CharacteristicExtValues>
 			<Type>
-				<v8:Type>cfg:CatalogRef.ЗначенияСвойствХарактеристик</v8:Type>
+				<v8:Type>cfg:CatalogRef.ЗначенияСвойств</v8:Type>
 				<v8:Type>xs:boolean</v8:Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:Type>xs:dateTime</v8:Type>

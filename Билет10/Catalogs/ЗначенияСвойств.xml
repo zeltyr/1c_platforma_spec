@@ -2,33 +2,33 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
 	<Catalog uuid="2d9e8806-b09e-45be-8c44-04336e8e2e1f">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ЗначенияСвойствХарактеристик" category="Object">
+			<xr:GeneratedType name="CatalogObject.ЗначенияСвойств" category="Object">
 				<xr:TypeId>38ccaaa4-499a-4d45-a61b-e9561aa85de7</xr:TypeId>
 				<xr:ValueId>264909fa-4874-44d4-a348-0b60b9be6fb9</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ЗначенияСвойствХарактеристик" category="Ref">
+			<xr:GeneratedType name="CatalogRef.ЗначенияСвойств" category="Ref">
 				<xr:TypeId>2e33099d-5092-45df-b9fb-75fe9759ddcb</xr:TypeId>
 				<xr:ValueId>e711d028-c90a-4d8f-a826-ede9042ed20a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ЗначенияСвойствХарактеристик" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.ЗначенияСвойств" category="Selection">
 				<xr:TypeId>5a99688b-44c1-4206-85e1-ecf53da76512</xr:TypeId>
 				<xr:ValueId>d0a78890-d635-4c35-9147-0bf78436ecf0</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ЗначенияСвойствХарактеристик" category="List">
+			<xr:GeneratedType name="CatalogList.ЗначенияСвойств" category="List">
 				<xr:TypeId>ae9efebf-ded5-4264-a190-025c6aac72e0</xr:TypeId>
 				<xr:ValueId>de489fd9-6247-4944-bc74-0c1b617b3c64</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ЗначенияСвойствХарактеристик" category="Manager">
+			<xr:GeneratedType name="CatalogManager.ЗначенияСвойств" category="Manager">
 				<xr:TypeId>7214d5bd-7662-40c9-9515-5b67c5e56d11</xr:TypeId>
 				<xr:ValueId>3d688758-cf23-46b4-8349-cb322783a1ed</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ЗначенияСвойствХарактеристик</Name>
+			<Name>ЗначенияСвойств</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Значения свойств характеристик</v8:content>
+					<v8:content>Значения свойств</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -292,8 +292,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.ЗначенияСвойствХарактеристик.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.ЗначенияСвойствХарактеристик.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.ЗначенияСвойств.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.ЗначенияСвойств.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>

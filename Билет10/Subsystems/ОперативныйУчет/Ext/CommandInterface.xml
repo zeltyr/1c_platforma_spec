@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
 	<CommandsVisibility>
-		<Command name="Catalog.Номенклатура.StandardCommand.OpenList">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="Catalog.ХарактеристикаНоменклатуры.StandardCommand.OpenList">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
 		<Command name="Catalog.НаборыНоменклатуры.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Catalog.ЗначенияСвойствХарактеристик.StandardCommand.OpenList">
+		<Command name="Catalog.Номенклатура.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.СвойстваНоменклатуры.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ЗначенияСвойств.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -51,6 +51,11 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="InformationRegister.ЗначенияСвойств.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
@@ -58,19 +63,19 @@
 		</Command>
 	</CommandsVisibility>
 	<CommandsPlacement>
-		<Command name="Catalog.Номенклатура.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.Справочники</CommandGroup>
-			<Placement>Auto</Placement>
-		</Command>
-		<Command name="Catalog.ХарактеристикаНоменклатуры.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.Справочники</CommandGroup>
-			<Placement>Auto</Placement>
-		</Command>
 		<Command name="Catalog.НаборыНоменклатуры.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Справочники</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="Catalog.ЗначенияСвойствХарактеристик.StandardCommand.OpenList">
+		<Command name="Catalog.Номенклатура.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.СвойстваНоменклатуры.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ЗначенияСвойств.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Справочники</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -98,22 +103,26 @@
 			<CommandGroup>CommandGroup.РегистрыСведений</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
+		<Command name="InformationRegister.ЗначенияСвойств.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыСведений</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
 		<Command name="AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.РегистрыНакопления</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
 	</CommandsPlacement>
 	<CommandsOrder>
-		<Command name="Catalog.Номенклатура.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.Справочники</CommandGroup>
-		</Command>
-		<Command name="Catalog.ХарактеристикаНоменклатуры.StandardCommand.OpenList">
-			<CommandGroup>CommandGroup.Справочники</CommandGroup>
-		</Command>
 		<Command name="Catalog.НаборыНоменклатуры.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Справочники</CommandGroup>
 		</Command>
-		<Command name="Catalog.ЗначенияСвойствХарактеристик.StandardCommand.OpenList">
+		<Command name="Catalog.Номенклатура.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.СвойстваНоменклатуры.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.ЗначенияСвойств.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Справочники</CommandGroup>
 		</Command>
 		<Command name="Document.ПриходнаяНакладная.StandardCommand.OpenList">
@@ -132,6 +141,9 @@
 			<CommandGroup>CommandGroup.ПланыВидовХарактеристик</CommandGroup>
 		</Command>
 		<Command name="InformationRegister.СоставНабора.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыСведений</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ЗначенияСвойств.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.РегистрыСведений</CommandGroup>
 		</Command>
 		<Command name="AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList">

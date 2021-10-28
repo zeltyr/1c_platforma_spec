@@ -348,16 +348,16 @@
 					</Attribute>
 					<Attribute uuid="5d2d98cc-212a-4893-a74d-c4ee9ea9715d">
 						<Properties>
-							<Name>Характеристика</Name>
+							<Name>Свойство</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Характеристика</v8:content>
+									<v8:content>Свойство</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.ХарактеристикаНоменклатуры</v8:Type>
+								<v8:Type>cfg:CatalogRef.СвойстваНоменклатуры</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>

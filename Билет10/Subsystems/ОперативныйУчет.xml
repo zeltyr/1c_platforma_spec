@@ -18,10 +18,9 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЗначенияСвойствХарактеристик</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЗначенияСвойств</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеСоставаНабора</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ХарактеристикаНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.НаборыНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриходнаяНакладная</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.РасходнаяНакладная</xr:Item>
@@ -30,6 +29,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.СвойстваОбъектов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ВедомостьПродуктовИБлюд</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗначенияСвойств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СвойстваНоменклатуры</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

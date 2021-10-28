@@ -261,16 +261,16 @@
 			</Dimension>
 			<Dimension uuid="84ae2d52-2b4a-4761-9ca7-56f3ed25fb3c">
 				<Properties>
-					<Name>Характеристика</Name>
+					<Name>Свойство</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Характеристика</v8:content>
+							<v8:content>Свойство</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ХарактеристикаНоменклатуры</v8:Type>
+						<v8:Type>cfg:CatalogRef.СвойстваНоменклатуры</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
