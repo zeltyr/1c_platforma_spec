@@ -81,9 +81,11 @@
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
 			<BasedOn/>
-			<DependenceOnCalculationTypes>DontUse</DependenceOnCalculationTypes>
-			<BaseCalculationTypes/>
-			<ActionPeriodUse>false</ActionPeriodUse>
+			<DependenceOnCalculationTypes>OnActionPeriod</DependenceOnCalculationTypes>
+			<BaseCalculationTypes>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ОсновныеНачисления</xr:Item>
+			</BaseCalculationTypes>
+			<ActionPeriodUse>true</ActionPeriodUse>
 			<StandardAttributes>
 				<xr:StandardAttribute name="PredefinedDataName">
 					<xr:LinkByType/>
