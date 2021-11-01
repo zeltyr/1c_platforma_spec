@@ -225,6 +225,7 @@
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Склады</Catalog>
+			<Catalog>ГрафикиРаботы</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
@@ -232,10 +233,12 @@
 			<Document>Отправление</Document>
 			<Document>Прибытие</Document>
 			<Document>Операция</Document>
+			<Document>Табель</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
 			<Report>ОтгрузкиТоваровЗаПериод</Report>
 			<Report>ЗадержкаТовара</Report>
+			<Report>Начисления</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
@@ -244,6 +247,7 @@
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
 			<AccumulationRegister>ОтгрузкиТоваров</AccumulationRegister>
 			<AccumulationRegister>ЗадолженностиПокупателей</AccumulationRegister>
+			<AccumulationRegister>РабочееВремяСотрудников</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
@@ -251,6 +255,8 @@
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
+			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
+			<CalculationRegister>ДополнительныеНачисления</CalculationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

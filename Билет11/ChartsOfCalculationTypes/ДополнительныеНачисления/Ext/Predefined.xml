@@ -5,5 +5,8 @@
 		<Code>1</Code>
 		<Description>Премия</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Base>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.Оклад</CalculationType>
+		</Base>
 	</Item>
 </PredefinedData>
