@@ -1,11 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.10">
+	<Item id="187b7c16-920a-4cbd-8deb-bdcf56f8c29c">
+		<Name>Дата</Name>
+		<Code>000000002</Code>
+		<Description>Дата</Description>
+		<Type>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="da4b2361-c1cc-4fcd-aec9-bd9e7b5fb410">
 		<Name>Номенклатура</Name>
 		<Code>000000001</Code>
 		<Description>Номенклатура</Description>
 		<Type>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Номенклатура</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b141d373-b184-49d5-83c6-ebcc1a482c7c">
+		<Name>Отправление</Name>
+		<Code>000000004</Code>
+		<Description>Отправление</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.Отправление</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4eb292d0-b20f-4659-af19-5ca14d967fa6">
+		<Name>Склад</Name>
+		<Code>000000003</Code>
+		<Description>Склад</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Склады</v8:Type>
 		</Type>
 		<IsFolder>false</IsFolder>
 	</Item>
