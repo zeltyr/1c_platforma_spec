@@ -241,13 +241,16 @@
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>ДополнительныеЗначенияСвойствОбъектов</Catalog>
+			<Catalog>Склады</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
 			<Document>ЗаказПокупателя</Document>
+			<Document>Операция</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
 			<Report>АнализНедоотгруженныхЗаказовПокупателей</Report>
+			<Report>ПродажиТоваровЗаПериод</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
@@ -260,6 +263,7 @@
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
+			<AccountingRegister>Управленческий</AccountingRegister>
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
