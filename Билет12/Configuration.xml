@@ -225,6 +225,7 @@
 			<CommonPicture>Расчеты</CommonPicture>
 			<CommonPicture>БизнесПроцессы</CommonPicture>
 			<CommonPicture>Сервис</CommonPicture>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
@@ -247,10 +248,12 @@
 			<Document>НачислениеЗарплаты</Document>
 			<Document>ЗаказПокупателя</Document>
 			<Document>Операция</Document>
+			<Document>Пробег</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
 			<Report>АнализНедоотгруженныхЗаказовПокупателей</Report>
 			<Report>ПродажиТоваровЗаПериод</Report>
+			<Report>АнализКомпенсаций</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
@@ -258,8 +261,10 @@
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
 			<InformationRegister>ЗначенияСвойств</InformationRegister>
+			<InformationRegister>РазмерКомпенсации</InformationRegister>
 			<AccumulationRegister>ПотребностиЗаказаПокупателя</AccumulationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
+			<AccumulationRegister>Пробег</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
@@ -267,6 +272,10 @@
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
+			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
+			<CalculationRegister>ДополнительныеНачисления</CalculationRegister>
+			<BusinessProcess>БизнесПроцесс</BusinessProcess>
+			<Task>Задача</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
