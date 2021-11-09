@@ -1,72 +1,77 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Document uuid="c7ca3a0c-5833-4da7-8eaf-68eda9ad61a5">
+	<Catalog uuid="3385104f-0579-4e23-8eb6-9fc7d5c7ed61">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ВыбытиеОборудования" category="Object">
-				<xr:TypeId>040623eb-8c40-4d02-9b23-f382a7ca6a45</xr:TypeId>
-				<xr:ValueId>7fbab15e-1b3e-44cd-af41-c2176f38a25b</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Должности" category="Object">
+				<xr:TypeId>a63cbd4a-d369-4c64-8bf1-0e1beaf85387</xr:TypeId>
+				<xr:ValueId>c6cb9072-fa5f-45d2-b129-be4a9efeea99</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ВыбытиеОборудования" category="Ref">
-				<xr:TypeId>9ab45eda-8365-400e-bb67-85fc8b4e13d6</xr:TypeId>
-				<xr:ValueId>b0acceaf-7ea6-4cb9-a79c-239c606d9c64</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Должности" category="Ref">
+				<xr:TypeId>d5687ae0-4986-477c-ac55-8034bb377e85</xr:TypeId>
+				<xr:ValueId>dc0f96b2-bd9e-4d56-9a9a-ca0817d5e1cf</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ВыбытиеОборудования" category="Selection">
-				<xr:TypeId>333ade18-5016-42f9-8d61-79914c2e2e46</xr:TypeId>
-				<xr:ValueId>78f652f2-2fb0-4c24-8479-45decedefaec</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Должности" category="Selection">
+				<xr:TypeId>d2ec42f0-07fa-4d03-b43f-cda5c5837347</xr:TypeId>
+				<xr:ValueId>b52f3206-05f5-4382-abe9-cbd3f98beef6</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ВыбытиеОборудования" category="List">
-				<xr:TypeId>21ee5841-5c34-4518-8a74-9c922557ec69</xr:TypeId>
-				<xr:ValueId>6cee2988-8b55-40e7-a43f-03a0c5a7bbcc</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Должности" category="List">
+				<xr:TypeId>0ceffba8-3d61-43fd-bf70-426f376a3733</xr:TypeId>
+				<xr:ValueId>fcc67390-5039-4f2b-a722-016cf1757233</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ВыбытиеОборудования" category="Manager">
-				<xr:TypeId>46fe1e1f-bae9-491a-b8e0-3c65835577a8</xr:TypeId>
-				<xr:ValueId>5b226ae2-7e46-4779-a755-bb504276519b</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Должности" category="Manager">
+				<xr:TypeId>6e0e0d82-2f36-4a5a-93f2-1e6e853926ee</xr:TypeId>
+				<xr:ValueId>3e1c4982-4391-4cdb-8c28-1d63c74c0afd</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ВыбытиеОборудования</Name>
+			<Name>Должности</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выбытие оборудования</v8:content>
+					<v8:content>Должности</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
+			<Hierarchical>false</Hierarchical>
+			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
+			<LimitLevelCount>false</LimitLevelCount>
+			<LevelCount>2</LevelCount>
+			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Numerator/>
-			<NumberType>String</NumberType>
-			<NumberLength>9</NumberLength>
-			<NumberAllowedLength>Variable</NumberAllowedLength>
-			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
+			<Owners/>
+			<SubordinationUse>ToItems</SubordinationUse>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>25</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<CodeSeries>WholeCatalog</CodeSeries>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<Characteristics/>
-			<BasedOn/>
+			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
+			<EditType>InDialog</EditType>
+			<QuickChoice>false</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Document.ВыбытиеОборудования.StandardAttribute.Number</xr:Field>
+				<xr:Field>Catalog.Должности.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Должности.StandardAttribute.Code</xr:Field>
 			</InputByString>
-			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm/>
+			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
+			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
+			<AuxiliaryFolderForm/>
 			<AuxiliaryListForm/>
 			<AuxiliaryChoiceForm/>
-			<Posting>Allow</Posting>
-			<RealTimePosting>Allow</RealTimePosting>
-			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
-			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
-			<SequenceFilling>AutoFill</SequenceFilling>
-			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.НоменклатураВЭксплуатации</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.СебестоимостьНоменклатуры</xr:Item>
-			</RegisterRecords>
-			<PostInPrivilegedMode>true</PostInPrivilegedMode>
-			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
+			<AuxiliaryFolderChoiceForm/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<BasedOn/>
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>Use</FullTextSearch>
@@ -75,11 +80,12 @@
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
+			<CreateOnInput>Use</CreateOnInput>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DataHistory>DontUse</DataHistory>
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects/>
-	</Document>
+	</Catalog>
 </MetaDataObject>

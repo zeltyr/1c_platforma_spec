@@ -21,7 +21,12 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList">
+		<Command name="0:3198f147-d569-4337-aaf1-4148b7ff6a5d">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="AccumulationRegister.СебестоимостьНоменклатуры.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -49,7 +54,11 @@
 			<CommandGroup>CommandGroup.Документы</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList">
+		<Command name="0:3198f147-d569-4337-aaf1-4148b7ff6a5d">
+			<CommandGroup>CommandGroup.РегистрыНакопления</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="AccumulationRegister.СебестоимостьНоменклатуры.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.РегистрыНакопления</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -71,7 +80,10 @@
 		<Command name="Document.ВыбытиеОборудования.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Документы</CommandGroup>
 		</Command>
-		<Command name="AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList">
+		<Command name="0:3198f147-d569-4337-aaf1-4148b7ff6a5d">
+			<CommandGroup>CommandGroup.РегистрыНакопления</CommandGroup>
+		</Command>
+		<Command name="AccumulationRegister.СебестоимостьНоменклатуры.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.РегистрыНакопления</CommandGroup>
 		</Command>
 		<Command name="AccumulationRegister.НоменклатураВЭксплуатации.StandardCommand.OpenList">

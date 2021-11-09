@@ -23,8 +23,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриходнаяНакладная</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВводВЭксплуатацию</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыбытиеОборудования</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">3198f147-d569-4337-aaf1-4148b7ff6a5d</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.НоменклатураВЭксплуатации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.СебестоимостьНоменклатуры</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -11,6 +11,8 @@
 		<Code>2</Code>
 		<Description>Премия руководителю</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
-		<Base/>
+		<Base>
+			<CalculationType>ChartOfCalculationTypes.ДополнительныеНачисления.Надбавка</CalculationType>
+		</Base>
 	</Item>
 </PredefinedData>

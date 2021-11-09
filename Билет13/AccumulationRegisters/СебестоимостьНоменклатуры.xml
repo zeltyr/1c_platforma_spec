@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<AccumulationRegister uuid="dd08361b-2110-4957-bc4d-7418a199d990">
+	<AccumulationRegister uuid="5c243092-47c5-4f27-8b6b-b3bbdc4919f0">
 		<InternalInfo>
-			<xr:GeneratedType name="AccumulationRegisterRecord.НоменклатураВЭксплуатации" category="Record">
-				<xr:TypeId>715e328f-6409-4821-8926-437aad18913e</xr:TypeId>
-				<xr:ValueId>178e321d-a19d-43c4-bdc3-7722961af221</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecord.СебестоимостьНоменклатуры" category="Record">
+				<xr:TypeId>8defb8a2-a8be-4d45-8a5e-f9896c264b61</xr:TypeId>
+				<xr:ValueId>bf06a632-6ee9-4722-bf96-810074b79acd</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterManager.НоменклатураВЭксплуатации" category="Manager">
-				<xr:TypeId>a0bbd0e6-ce7e-4263-9ef7-6e019a509fcf</xr:TypeId>
-				<xr:ValueId>f7414a00-f369-4b6a-a696-71f9e5c71016</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterManager.СебестоимостьНоменклатуры" category="Manager">
+				<xr:TypeId>2c15a0cc-1180-4efc-89b2-13323b741b3b</xr:TypeId>
+				<xr:ValueId>4d3f4b9c-9213-4cee-90e5-357da793dc48</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterSelection.НоменклатураВЭксплуатации" category="Selection">
-				<xr:TypeId>0a27488a-0aa6-40f1-bf8e-cfbed420aaca</xr:TypeId>
-				<xr:ValueId>b82a3786-b34a-4a81-8218-42d399b32155</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterSelection.СебестоимостьНоменклатуры" category="Selection">
+				<xr:TypeId>155aaaaf-6f8e-46b5-b8ba-588111e7c500</xr:TypeId>
+				<xr:ValueId>39d5c1f6-f4a1-4e66-86c8-9d8ac8735196</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterList.НоменклатураВЭксплуатации" category="List">
-				<xr:TypeId>85183e07-5c8f-4591-9ae6-076e290f4d25</xr:TypeId>
-				<xr:ValueId>c6a203d1-9124-4459-9d3b-f893fbda64c0</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterList.СебестоимостьНоменклатуры" category="List">
+				<xr:TypeId>5ea4e2f2-352e-44a5-92c0-304a08d3f622</xr:TypeId>
+				<xr:ValueId>8279f3d7-e107-4957-9d4b-f4a156135eca</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterRecordSet.НоменклатураВЭксплуатации" category="RecordSet">
-				<xr:TypeId>e4cf044a-fb48-45e3-8c86-7ce676662506</xr:TypeId>
-				<xr:ValueId>5489f35d-a3cf-4693-8ee5-923191387918</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.СебестоимостьНоменклатуры" category="RecordSet">
+				<xr:TypeId>5b7b0cc5-47a3-4049-b393-29c8680cfded</xr:TypeId>
+				<xr:ValueId>470f99f1-ef14-467b-85bf-f9a59d629ad7</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterRecordKey.НоменклатураВЭксплуатации" category="RecordKey">
-				<xr:TypeId>9b741089-90d3-4b72-8aa6-a23de2c044f5</xr:TypeId>
-				<xr:ValueId>eb337fc2-9009-4f8f-aa11-bd21a098f9b7</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.СебестоимостьНоменклатуры" category="RecordKey">
+				<xr:TypeId>409adeb4-58ff-4a80-a81b-bc141df41cd3</xr:TypeId>
+				<xr:ValueId>dc9218d7-f3c7-4b30-a661-cb6e9ef2cad7</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>НоменклатураВЭксплуатации</Name>
+			<Name>СебестоимостьНоменклатуры</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Номенклатура в эксплуатации</v8:content>
+					<v8:content>Себестоимость номенклатуры</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -49,7 +49,7 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="4f8c0ec2-5a60-4cdf-99ef-a2c133f13c9d">
+			<Resource uuid="49db11aa-414b-4368-9f21-c3b18b07d052">
 				<Properties>
 					<Name>Количество</Name>
 					<Synonym>
@@ -89,7 +89,47 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Dimension uuid="c13cbf90-d35f-4485-92e6-728b7be5aa2a">
+			<Resource uuid="d262fbd5-543e-4019-a4c2-d3c70494782a">
+				<Properties>
+					<Name>Сумма</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Resource>
+			<Dimension uuid="5549d68b-ff17-4f65-a43a-de2122b6e675">
 				<Properties>
 					<Name>Номенклатура</Name>
 					<Synonym>
@@ -122,88 +162,6 @@
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<DenyIncompleteValues>true</DenyIncompleteValues>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<UseInTotals>true</UseInTotals>
-				</Properties>
-			</Dimension>
-			<Dimension uuid="10a4b315-7698-4d08-a9f6-4df8dd2a589b">
-				<Properties>
-					<Name>СрокГодности</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Срок годности</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:dateTime</v8:Type>
-						<v8:DateQualifiers>
-							<v8:DateFractions>Date</v8:DateFractions>
-						</v8:DateQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<DenyIncompleteValues>true</DenyIncompleteValues>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<UseInTotals>true</UseInTotals>
-				</Properties>
-			</Dimension>
-			<Dimension uuid="f2f9dff9-09cc-4a95-bfe7-36633100aefc">
-				<Properties>
-					<Name>СрокЭксплуатации</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Срок эксплуатации</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:dateTime</v8:Type>
-						<v8:DateQualifiers>
-							<v8:DateFractions>Date</v8:DateFractions>
-						</v8:DateQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
 					<UseInTotals>true</UseInTotals>

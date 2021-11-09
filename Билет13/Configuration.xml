@@ -211,6 +211,7 @@
 			<CommonPicture>Расчеты</CommonPicture>
 			<CommonPicture>БизнесПроцессы</CommonPicture>
 			<CommonPicture>Сервис</CommonPicture>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
@@ -230,6 +231,7 @@
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>Бригады</Catalog>
+			<Catalog>Должности</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
@@ -248,7 +250,7 @@
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
 			<InformationRegister>СоставКомплекта</InformationRegister>
-			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
+			<AccumulationRegister>СебестоимостьНоменклатуры</AccumulationRegister>
 			<AccumulationRegister>НоменклатураВЭксплуатации</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
@@ -260,6 +262,8 @@
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
 			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
 			<CalculationRegister>ДополнительныеНачисления</CalculationRegister>
+			<BusinessProcess>БизнесПроцесс</BusinessProcess>
+			<Task>Задача</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
