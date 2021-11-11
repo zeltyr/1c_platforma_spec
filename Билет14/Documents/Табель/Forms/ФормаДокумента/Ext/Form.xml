@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="56">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="57"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Подразделение" id="7">
+			<DataPath>1/0:1ec0da01-18ea-4da4-a795-4c68d3981682</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПодразделениеКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<UsualGroup name="Группа2" id="58">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="59"/>
+			<ChildItems>
+				<InputField name="ПериодС" id="10">
+					<DataPath>Объект.ПериодС</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПериодСКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ПериодСРасширеннаяПодсказка" id="12"/>
+					<Events>
+						<Event name="OnChange">ПериодСПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ПериодПо" id="13">
+					<DataPath>Объект.ПериодПо</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПериодПоКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="ПериодПоРасширеннаяПодсказка" id="15"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="Сотрудники" id="16">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Сотрудники</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СотрудникиКонтекстноеМеню" id="17"/>
+			<AutoCommandBar name="СотрудникиКоманднаяПанель" id="18"/>
+			<ExtendedTooltip name="СотрудникиРасширеннаяПодсказка" id="19"/>
+			<SearchStringAddition name="СотрудникиСтрокаПоиска" id="20">
+				<AdditionSource>
+					<Item>Сотрудники</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СотрудникиСтрокаПоискаКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="СотрудникиСтрокаПоискаРасширеннаяПодсказка" id="22"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СотрудникиСостояниеПросмотра" id="23">
+				<AdditionSource>
+					<Item>Сотрудники</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СотрудникиСостояниеПросмотраКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="СотрудникиСостояниеПросмотраРасширеннаяПодсказка" id="25"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СотрудникиУправлениеПоиском" id="26">
+				<AdditionSource>
+					<Item>Сотрудники</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СотрудникиУправлениеПоискомКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="СотрудникиУправлениеПоискомРасширеннаяПодсказка" id="28"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="СотрудникиНомерСтроки" id="29">
+					<DataPath>Объект.Сотрудники.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СотрудникиНомерСтрокиКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="СотрудникиНомерСтрокиРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+				<InputField name="СотрудникиСотрудник" id="32">
+					<DataPath>Объект.Сотрудники.Сотрудник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СотрудникиСотрудникКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="СотрудникиСотрудникРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<CheckBoxField name="Сотрудники_Д1" id="35">
+					<DataPath>Объект.Сотрудники._Д1</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="Сотрудники_Д1КонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="Сотрудники_Д1РасширеннаяПодсказка" id="37"/>
+				</CheckBoxField>
+				<CheckBoxField name="Сотрудники_Д2" id="38">
+					<DataPath>Объект.Сотрудники._Д2</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="Сотрудники_Д2КонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="Сотрудники_Д2РасширеннаяПодсказка" id="40"/>
+				</CheckBoxField>
+				<CheckBoxField name="Сотрудники_Д3" id="41">
+					<DataPath>Объект.Сотрудники._Д3</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="Сотрудники_Д3КонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="Сотрудники_Д3РасширеннаяПодсказка" id="43"/>
+				</CheckBoxField>
+				<CheckBoxField name="Сотрудники_Д4" id="44">
+					<DataPath>Объект.Сотрудники._Д4</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="Сотрудники_Д4КонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="Сотрудники_Д4РасширеннаяПодсказка" id="46"/>
+				</CheckBoxField>
+				<CheckBoxField name="Сотрудники_Д5" id="47">
+					<DataPath>Объект.Сотрудники._Д5</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="Сотрудники_Д5КонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="Сотрудники_Д5РасширеннаяПодсказка" id="49"/>
+				</CheckBoxField>
+				<CheckBoxField name="Сотрудники_Д6" id="50">
+					<DataPath>Объект.Сотрудники._Д6</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="Сотрудники_Д6КонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="Сотрудники_Д6РасширеннаяПодсказка" id="52"/>
+				</CheckBoxField>
+				<CheckBoxField name="Сотрудники_Д7" id="53">
+					<DataPath>Объект.Сотрудники._Д7</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="Сотрудники_Д7КонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="Сотрудники_Д7РасширеннаяПодсказка" id="55"/>
+				</CheckBoxField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Табель</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

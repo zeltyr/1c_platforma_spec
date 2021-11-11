@@ -84,9 +84,8 @@
 			<DependenceOnCalculationTypes>OnActionPeriod</DependenceOnCalculationTypes>
 			<BaseCalculationTypes>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ОсновныеНачисления</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ДополнительныеНачисления</xr:Item>
 			</BaseCalculationTypes>
-			<ActionPeriodUse>true</ActionPeriodUse>
+			<ActionPeriodUse>false</ActionPeriodUse>
 			<StandardAttributes>
 				<xr:StandardAttribute name="PredefinedDataName">
 					<xr:LinkByType/>

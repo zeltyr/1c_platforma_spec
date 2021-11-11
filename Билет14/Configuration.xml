@@ -241,17 +241,20 @@
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Склады</Catalog>
+			<Catalog>ГрафикиРаботы</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
 			<Document>ПриходДенег</Document>
 			<Document>Сборка</Document>
 			<Document>Операция</Document>
+			<Document>Табель</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
 			<Enum>ВидыСборки</Enum>
 			<Report>ВзаиморасчетыЗаПериод</Report>
 			<Report>Комплекты</Report>
+			<Report>АнализНачислений</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
@@ -260,6 +263,7 @@
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
 			<InformationRegister>СоставыКомплектов</InformationRegister>
 			<AccumulationRegister>ДолгиПоДокументам</AccumulationRegister>
+			<AccumulationRegister>РаботчееВремяСотрудников</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
@@ -267,6 +271,8 @@
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
+			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
+			<CalculationRegister>ДополнительныеНачисления</CalculationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
