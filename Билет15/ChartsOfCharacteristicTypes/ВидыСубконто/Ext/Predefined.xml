@@ -9,4 +9,22 @@
 		</Type>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="de5156a4-67c8-420c-b35b-2b2d3d6cc160">
+		<Name>Партия</Name>
+		<Code>000000003</Code>
+		<Description>Партия</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.ПриходнаяНакладная</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="222ed03f-18cc-471e-a069-ef010ec38f5d">
+		<Name>Склад</Name>
+		<Code>000000002</Code>
+		<Description>Склад</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Склады</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>

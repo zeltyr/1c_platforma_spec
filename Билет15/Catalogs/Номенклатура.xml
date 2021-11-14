@@ -284,7 +284,20 @@
 					<xr:ChoiceParameters/>
 				</xr:StandardAttribute>
 			</StandardAttributes>
-			<Characteristics/>
+			<Characteristics>
+				<xr:Characteristic>
+					<xr:CharacteristicTypes from="ChartOfCharacteristicTypes.СвойстваОбъектов">
+						<xr:KeyField>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardAttribute.Ref</xr:KeyField>
+						<xr:TypesFilterField>-1</xr:TypesFilterField>
+						<xr:TypesFilterValue xsi:nil="true"/>
+					</xr:CharacteristicTypes>
+					<xr:CharacteristicValues from="InformationRegister.ЗначенияСвойствНоменклатуры">
+						<xr:ObjectField>InformationRegister.ЗначенияСвойствНоменклатуры.Dimension.Объект</xr:ObjectField>
+						<xr:TypeField>InformationRegister.ЗначенияСвойствНоменклатуры.Dimension.Свойство</xr:TypeField>
+						<xr:ValueField>InformationRegister.ЗначенияСвойствНоменклатуры.Resource.Значение</xr:ValueField>
+					</xr:CharacteristicValues>
+				</xr:Characteristic>
+			</Characteristics>
 			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
 			<QuickChoice>false</QuickChoice>
