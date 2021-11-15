@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<CommandsVisibility>
+		<Command name="Catalog.ФизическиеЛица.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Смены.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.НачислениеЗарплаты.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="ChartOfCalculationTypes.ОсновныеНачисления.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="ChartOfCalculationTypes.ДополнительныеНачисления.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.СведенияОСотрудниках.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ГрафикиРаботы.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CalculationRegister.ОсновныеНачисления.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CalculationRegister.ДополнительныеНачисления.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Catalog.ФизическиеЛица.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Смены.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.НачислениеЗарплаты.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Документы</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="ChartOfCalculationTypes.ОсновныеНачисления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПланыВидовРасчета</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="ChartOfCalculationTypes.ДополнительныеНачисления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПланыВидовРасчета</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.СведенияОСотрудниках.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыСведений</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ГрафикиРаботы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыСведений</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="CalculationRegister.ОсновныеНачисления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыРасчета</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="CalculationRegister.ДополнительныеНачисления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыРасчета</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="Catalog.ФизическиеЛица.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.Смены.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+		</Command>
+		<Command name="Document.НачислениеЗарплаты.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Документы</CommandGroup>
+		</Command>
+		<Command name="ChartOfCalculationTypes.ОсновныеНачисления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПланыВидовРасчета</CommandGroup>
+		</Command>
+		<Command name="ChartOfCalculationTypes.ДополнительныеНачисления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПланыВидовРасчета</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.СведенияОСотрудниках.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыСведений</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ГрафикиРаботы.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыСведений</CommandGroup>
+		</Command>
+		<Command name="CalculationRegister.ОсновныеНачисления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыРасчета</CommandGroup>
+		</Command>
+		<Command name="CalculationRegister.ДополнительныеНачисления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыРасчета</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>CommandGroup.Справочники</Group>
+		<Group>CommandGroup.Документы</Group>
+		<Group>CommandGroup.ПланыВидовРасчета</Group>
+		<Group>CommandGroup.РегистрыСведений</Group>
+		<Group>CommandGroup.РегистрыРасчета</Group>
+	</GroupsOrder>
+</CommandInterface>

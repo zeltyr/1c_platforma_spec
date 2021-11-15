@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.11">
+	<Item id="ada2fddb-fa0f-4222-8f62-9cab826d5ffb">
+		<Name>Пятидневка</Name>
+		<Code>000000001</Code>
+		<Description>Пятидневка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="16b60656-6d94-4bfd-93bb-5b111f3fabc1">
+		<Name>Смена1</Name>
+		<Code>000000002</Code>
+		<Description>Смена1</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e6ee644f-c550-44d1-bc4f-43641509e4c5">
+		<Name>Смена2</Name>
+		<Code>000000003</Code>
+		<Description>Смена2</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4b73ff07-2ffc-4d73-90cb-706b425794dd">
+		<Name>Смена3</Name>
+		<Code>000000004</Code>
+		<Description>Смена3</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
