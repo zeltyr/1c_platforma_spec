@@ -1,11 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.10">
+	<Item id="d4a590ed-e55a-4835-8e89-2ac2f199455b">
+		<Name>Испорчен</Name>
+		<Code>000000002</Code>
+		<Description>Испорчен</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="da4b2361-c1cc-4fcd-aec9-bd9e7b5fb410">
 		<Name>Номенклатура</Name>
 		<Code>000000001</Code>
 		<Description>Номенклатура</Description>
 		<Type>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Номенклатура</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7381fb51-f4d9-4711-bcce-64042a4c9562">
+		<Name>Партия</Name>
+		<Code>000000003</Code>
+		<Description>Партия</Description>
+		<Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.ПриходнаяНакладная</v8:Type>
 		</Type>
 		<IsFolder>false</IsFolder>
 	</Item>
