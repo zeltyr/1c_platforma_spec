@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<CommandsVisibility>
+		<Command name="AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="AccountingRegister.Управленческий.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CalculationRegister.ОсновныеНачисления.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CalculationRegister.ДополнительныеНачисления.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыНакопления</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="AccountingRegister.Управленческий.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыБухгалтерии</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="CalculationRegister.ОсновныеНачисления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыРасчета</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="CalculationRegister.ДополнительныеНачисления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыРасчета</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыНакопления</CommandGroup>
+		</Command>
+		<Command name="AccountingRegister.Управленческий.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыБухгалтерии</CommandGroup>
+		</Command>
+		<Command name="CalculationRegister.ОсновныеНачисления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыРасчета</CommandGroup>
+		</Command>
+		<Command name="CalculationRegister.ДополнительныеНачисления.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыРасчета</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>CommandGroup.РегистрыНакопления</Group>
+		<Group>CommandGroup.РегистрыБухгалтерии</Group>
+		<Group>CommandGroup.РегистрыРасчета</Group>
+	</GroupsOrder>
+</CommandInterface>

@@ -30,7 +30,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ОсновныеНачисления</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ДополнительныеНачисления</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикиРаботы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">f2e05389-c768-4368-9b71-22821e18dbea</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.Перерасчеты</xr:Item>
 			</Content>
 		</Properties>

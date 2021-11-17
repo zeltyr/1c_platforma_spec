@@ -207,7 +207,14 @@
 			<CommonPicture>Расчеты</CommonPicture>
 			<CommonPicture>БизнесПроцессы</CommonPicture>
 			<CommonPicture>Сервис</CommonPicture>
+			<SessionParameter>ТекущаяДолжность</SessionParameter>
+			<Role>ПолныеПрава</Role>
 			<CommonModule>Расчет</CommonModule>
+			<CommonModule>УФ</CommonModule>
+			<FunctionalOption>ПодсистемаОУ</FunctionalOption>
+			<FunctionalOption>ПодсистемаБУ</FunctionalOption>
+			<FunctionalOption>ПодсистемаРасчеты</FunctionalOption>
+			<FunctionalOptionsParameter>Должность</FunctionalOptionsParameter>
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
 			<CommandGroup>ПланыВидовХарактеристик</CommandGroup>
@@ -224,6 +231,7 @@
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>ГрафикиРаботы</Catalog>
+			<Catalog>Должности</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
@@ -241,6 +249,7 @@
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
 			<InformationRegister>УчетнаяПолитика</InformationRegister>
+			<InformationRegister>ДоступКПодсистемам</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
