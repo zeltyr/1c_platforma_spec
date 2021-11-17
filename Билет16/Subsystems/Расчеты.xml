@@ -19,6 +19,19 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеЗарплаты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.ОсновныеНачисления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.ДополнительныеНачисления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГрафикиРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.СуммаКомпенсации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ФизическиеЛица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Подразделения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КонсольЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗаполнениеГрафика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ОсновныеНачисления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ДополнительныеНачисления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикиРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">f2e05389-c768-4368-9b71-22821e18dbea</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.Перерасчеты</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

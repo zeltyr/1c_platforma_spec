@@ -207,6 +207,7 @@
 			<CommonPicture>Расчеты</CommonPicture>
 			<CommonPicture>БизнесПроцессы</CommonPicture>
 			<CommonPicture>Сервис</CommonPicture>
+			<CommonModule>Расчет</CommonModule>
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
 			<CommandGroup>ПланыВидовХарактеристик</CommandGroup>
@@ -216,11 +217,13 @@
 			<CommandGroup>РегистрыНакопления</CommandGroup>
 			<CommandGroup>РегистрыБухгалтерии</CommandGroup>
 			<CommandGroup>РегистрыРасчета</CommandGroup>
+			<Constant>СуммаКомпенсации</Constant>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Подразделения</Catalog>
+			<Catalog>ГрафикиРаботы</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
@@ -230,6 +233,7 @@
 			<Enum>ВидыНоменклатуры</Enum>
 			<Report>ВзаиморасчетыЗаПериод</Report>
 			<Report>ПродажиЗаПериод</Report>
+			<Report>Перерасчеты</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
@@ -246,6 +250,8 @@
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
+			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
+			<CalculationRegister>ДополнительныеНачисления</CalculationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
