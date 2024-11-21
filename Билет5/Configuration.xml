@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
 	<Configuration uuid="a92cebe9-4e30-4901-842c-b1cc1d0adc9a">
 		<InternalInfo>
 			<xr:ContainedObject>
@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>9aef61a5-702b-4ffa-a67c-e0b92778e29e</xr:ObjectId>
+				<xr:ObjectId>a7282cf5-a683-40b4-ab46-07bac3ee8766</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -39,9 +39,9 @@
 					<v8:content>Каркасная конфигурация</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>Каркасная конфигурация 13.07.2020</Comment>
+			<Comment>Каркасная конфигурация 27.02.2019</Comment>
 			<NamePrefix/>
-			<ConfigurationExtensionCompatibilityMode>Version8_3_17</ConfigurationExtensionCompatibilityMode>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_24</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
@@ -60,115 +60,172 @@
 			<ReportsVariantsStorage/>
 			<FormDataSettingsStorage/>
 			<DynamicListsUserSettingsStorage/>
+			<URLExternalDataStorage/>
 			<Content/>
 			<DefaultReportForm/>
 			<DefaultReportVariantForm/>
 			<DefaultReportSettingsForm/>
+			<DefaultReportAppearanceTemplate/>
 			<DefaultDynamicListSettingsForm/>
 			<DefaultSearchForm/>
 			<DefaultDataHistoryChangeHistoryForm/>
 			<DefaultDataHistoryVersionDataForm/>
 			<DefaultDataHistoryVersionDifferencesForm/>
 			<DefaultCollaborationSystemUsersChoiceForm/>
-			<RequiredMobileApplicationPermissions>
-				<app:permission>
-					<app:permission>Location</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>Contacts</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>Calendars</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>PushNotification</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>LocalNotification</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>Print</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>InAppPurchases</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>Ads</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>BackgroundLocation</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>BackgroundAudioPlayback</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>FileExchangeWithPersonalComputer</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>CallPhone</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>CallLog</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>HandlePhoneCalls</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>SendSMS</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>ReceiveSMS</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>SMSLog</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>Camera</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>Microphone</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>MusicLibrary</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>PicturesAndVideoLibraries</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>AudioAndVibrationPlayback</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>InstallPackages</app:permission>
-					<app:use>false</app:use>
-				</app:permission>
-				<app:permission>
-					<app:permission>AllowOSBackup</app:permission>
+			<RequiredMobileApplicationPermissions/>
+			<UsedMobileApplicationFunctionalities>
+				<app:functionality>
+					<app:functionality>Biometrics</app:functionality>
 					<app:use>true</app:use>
-				</app:permission>
-			</RequiredMobileApplicationPermissions>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>Location</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>BackgroundLocation</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>BluetoothPrinters</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>WiFiPrinters</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>Contacts</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>Calendars</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>PushNotifications</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>LocalNotifications</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>InAppPurchases</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>PersonalComputerFileExchange</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>Ads</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>NumberDialing</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>CallProcessing</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>CallLog</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>AutoSendSMS</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>ReceiveSMS</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>SMSLog</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>Camera</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>Microphone</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>MusicLibrary</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>PictureAndVideoLibraries</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>AudioPlaybackAndVibration</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>BackgroundAudioPlaybackAndVibration</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>InstallPackages</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>OSBackup</app:functionality>
+					<app:use>true</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>ApplicationUsageStatistics</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>BarcodeScanning</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>BackgroundAudioRecording</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>AllFilesAccess</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>Videoconferences</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>NFC</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>DocumentScanning</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>SpeechToText</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>Geofences</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>IncomingShareRequests</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>AllIncomingShareRequestsTypesProcessing</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+			</UsedMobileApplicationFunctionalities>
 			<StandaloneConfigurationRestrictionRoles/>
+			<MobileApplicationURLs/>
+			<AllowedIncomingShareRequestTypes/>
 			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
 			<DefaultInterface/>
 			<DefaultStyle/>
@@ -190,9 +247,10 @@
 			<ConfigurationInformationAddress/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
-			<ModalityUseMode>UseWithWarnings</ModalityUseMode>
+			<ModalityUseMode>DontUse</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
+			<DatabaseTablespacesUseMode>DontUse</DatabaseTablespacesUseMode>
 			<CompatibilityMode>Version8_3_12</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
@@ -207,26 +265,19 @@
 			<CommonPicture>Расчеты</CommonPicture>
 			<CommonPicture>БизнесПроцессы</CommonPicture>
 			<CommonPicture>Сервис</CommonPicture>
-			<SessionParameter>ФизЛицо</SessionParameter>
-			<Role>ПолныеПрава</Role>
+			<CommonModule>ОбработкаТабличнойЧасти</CommonModule>
 			<CommandGroup>Справочники</CommandGroup>
 			<CommandGroup>Документы</CommandGroup>
 			<CommandGroup>ПланыВидовХарактеристик</CommandGroup>
-			<CommandGroup>ПланыСчетов</CommandGroup>
-			<CommandGroup>ПланыВидовРасчета</CommandGroup>
 			<CommandGroup>РегистрыСведений</CommandGroup>
 			<CommandGroup>РегистрыНакопления</CommandGroup>
-			<CommandGroup>РегистрыБухгалтерии</CommandGroup>
-			<CommandGroup>РегистрыРасчета</CommandGroup>
-			<CommandGroup>БизнесПроцессы</CommandGroup>
-			<CommandGroup>Задачи</CommandGroup>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Подразделения</Catalog>
+			<Catalog>Склады</Catalog>
 			<Catalog>Проекты</Catalog>
-			<Catalog>Должности</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
@@ -234,28 +285,19 @@
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
 			<Report>СостояниеВзаиморасчетов</Report>
-			<Report>ПродажиЗаПериод</Report>
-			<Report>НачисленияСотруднику</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
-			<InformationRegister>ТарифнаяСетка</InformationRegister>
-			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
-			<AccumulationRegister>ВзаиморасчетыСКонтрагентами</AccumulationRegister>
+			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
-			<AccountingRegister>Управленческий</AccountingRegister>
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
-			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
-			<CalculationRegister>ДополнительныеНачисления</CalculationRegister>
-			<BusinessProcess>БизнесПроцессБилета</BusinessProcess>
-			<Task>ЗадачаБилета</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

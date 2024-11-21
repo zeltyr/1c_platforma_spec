@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Document uuid="60e7c932-973d-4182-bdae-bffae54e48a9">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="d67dad3a-2abe-4e59-9592-35e01d27cbea">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ПриходДенег" category="Object">
-				<xr:TypeId>0ad3682b-da8d-4fec-b557-8e175bd3c046</xr:TypeId>
-				<xr:ValueId>69d1c1ad-2678-46e4-b4d4-b228dd2acd40</xr:ValueId>
+				<xr:TypeId>3ad4f402-e0d9-4711-90ec-64d3aadf60d0</xr:TypeId>
+				<xr:ValueId>ea23c234-9001-4006-a231-5e53ba55fb7e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentRef.ПриходДенег" category="Ref">
-				<xr:TypeId>e56ae636-3b0d-456d-aa37-eb268f935b75</xr:TypeId>
-				<xr:ValueId>abdf7633-2e86-4774-b4aa-48877ab05933</xr:ValueId>
+				<xr:TypeId>3817864e-b52a-45f3-b780-258beb49001c</xr:TypeId>
+				<xr:ValueId>8e8a59b5-19ff-48be-b81a-7d97b5040475</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentSelection.ПриходДенег" category="Selection">
-				<xr:TypeId>9d5ae592-7344-4014-8501-f50b9a655c66</xr:TypeId>
-				<xr:ValueId>0feafc7c-3a6e-4c19-ade3-86a83fb2f2d2</xr:ValueId>
+				<xr:TypeId>30905016-9188-4bcb-843e-a2688d4d6a45</xr:TypeId>
+				<xr:ValueId>4b1cee54-e578-4965-8245-58200fb74091</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentList.ПриходДенег" category="List">
-				<xr:TypeId>4ae6b4b5-03b7-41c4-8dc4-0f530d7e4739</xr:TypeId>
-				<xr:ValueId>39e8b08a-6f07-4c27-b446-d483884775b1</xr:ValueId>
+				<xr:TypeId>514e63e3-afa9-4890-8b46-061608454c81</xr:TypeId>
+				<xr:ValueId>a7db05f7-9b1f-423d-a4e8-00f60841d172</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentManager.ПриходДенег" category="Manager">
-				<xr:TypeId>9ecbf78c-ff92-49b3-85eb-4812a0196af6</xr:TypeId>
-				<xr:ValueId>7c263b58-6296-4e7d-be7e-7c3aa281ff35</xr:ValueId>
+				<xr:TypeId>b8ffde81-5063-46ca-8fa0-b42598736c6f</xr:TypeId>
+				<xr:ValueId>4807c006-5f4e-45ee-ad92-1fef3c3fe1bd</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -61,7 +61,7 @@
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ВзаиморасчетыСКонтрагентами</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Взаиморасчеты</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
@@ -80,7 +80,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="cca9614c-8b31-48bd-9d57-6e769017f2f5">
+			<Attribute uuid="8798bff7-522f-43e2-8281-ea3a2c9c267d">
 				<Properties>
 					<Name>Контрагент</Name>
 					<Synonym>
@@ -105,7 +105,7 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
-					<FillChecking>ShowError</FillChecking>
+					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
@@ -119,13 +119,13 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="91586d3f-4a87-423c-abe7-916e5b0bdc5b">
+			<Attribute uuid="8e087f07-7d6a-43b6-82bd-2a3703e7b721">
 				<Properties>
 					<Name>СуммаПоДокументу</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма по документу</v8:content>
+							<v8:content>Сумма по документу (ОУ в рублях)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -149,7 +149,7 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
-					<FillChecking>ShowError</FillChecking>
+					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>

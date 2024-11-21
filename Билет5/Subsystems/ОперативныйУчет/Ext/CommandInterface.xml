@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
 	<CommandsVisibility>
 		<Command name="Catalog.Валюты.StandardCommand.OpenList">
 			<Visibility>
@@ -11,12 +11,22 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Catalog.Проекты.StandardCommand.OpenList">
+		<Command name="Catalog.Номенклатура.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Document.ПриходДенег.StandardCommand.OpenList">
+		<Command name="Catalog.Подразделения.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Склады.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.ПриходнаяНакладная.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -26,12 +36,17 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="ChartOfCharacteristicTypes.СвойстваОбъектов.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="InformationRegister.КурсыВалют.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="AccumulationRegister.ВзаиморасчетыСКонтрагентами.StandardCommand.OpenList">
+		<Command name="0:3198f147-d569-4337-aaf1-4148b7ff6a5d">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -46,11 +61,19 @@
 			<CommandGroup>CommandGroup.Справочники</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="Catalog.Проекты.StandardCommand.OpenList">
+		<Command name="Catalog.Номенклатура.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Справочники</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="Document.ПриходДенег.StandardCommand.OpenList">
+		<Command name="Catalog.Подразделения.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Склады.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.ПриходнаяНакладная.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Документы</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -58,11 +81,15 @@
 			<CommandGroup>CommandGroup.Документы</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
+		<Command name="ChartOfCharacteristicTypes.СвойстваОбъектов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПланыВидовХарактеристик</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
 		<Command name="InformationRegister.КурсыВалют.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.РегистрыСведений</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="AccumulationRegister.ВзаиморасчетыСКонтрагентами.StandardCommand.OpenList">
+		<Command name="0:3198f147-d569-4337-aaf1-4148b7ff6a5d">
 			<CommandGroup>CommandGroup.РегистрыНакопления</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
@@ -74,25 +101,35 @@
 		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Справочники</CommandGroup>
 		</Command>
-		<Command name="Catalog.Проекты.StandardCommand.OpenList">
+		<Command name="Catalog.Номенклатура.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Справочники</CommandGroup>
 		</Command>
-		<Command name="Document.ПриходДенег.StandardCommand.OpenList">
+		<Command name="Catalog.Подразделения.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+		</Command>
+		<Command name="Catalog.Склады.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.Справочники</CommandGroup>
+		</Command>
+		<Command name="Document.ПриходнаяНакладная.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Документы</CommandGroup>
 		</Command>
 		<Command name="Document.РасходнаяНакладная.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.Документы</CommandGroup>
 		</Command>
+		<Command name="ChartOfCharacteristicTypes.СвойстваОбъектов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПланыВидовХарактеристик</CommandGroup>
+		</Command>
 		<Command name="InformationRegister.КурсыВалют.StandardCommand.OpenList">
 			<CommandGroup>CommandGroup.РегистрыСведений</CommandGroup>
 		</Command>
-		<Command name="AccumulationRegister.ВзаиморасчетыСКонтрагентами.StandardCommand.OpenList">
+		<Command name="0:3198f147-d569-4337-aaf1-4148b7ff6a5d">
 			<CommandGroup>CommandGroup.РегистрыНакопления</CommandGroup>
 		</Command>
 	</CommandsOrder>
 	<GroupsOrder>
 		<Group>CommandGroup.Справочники</Group>
 		<Group>CommandGroup.Документы</Group>
+		<Group>CommandGroup.ПланыВидовХарактеристик</Group>
 		<Group>CommandGroup.РегистрыСведений</Group>
 		<Group>CommandGroup.РегистрыНакопления</Group>
 	</GroupsOrder>

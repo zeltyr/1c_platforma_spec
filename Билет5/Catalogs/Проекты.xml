@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Catalog uuid="67305363-e605-4298-afde-de1d5a50ae32">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="aa03657f-19da-42dc-a30f-f646de704a0e">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Проекты" category="Object">
-				<xr:TypeId>f795c1dc-9aa8-4ba3-aa42-c43bd75867e6</xr:TypeId>
-				<xr:ValueId>5235de44-752e-4a4f-99ed-bed234af2103</xr:ValueId>
+				<xr:TypeId>5e077621-4857-447f-a149-667dbe37d37a</xr:TypeId>
+				<xr:ValueId>2ba09454-7f3f-4697-961f-8e48b8eac5dd</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Проекты" category="Ref">
-				<xr:TypeId>ab2b8e79-157d-4446-b971-9444916d9e53</xr:TypeId>
-				<xr:ValueId>a765de9b-bb3b-40d2-a045-535e8f54a9c3</xr:ValueId>
+				<xr:TypeId>88cf5e47-62e4-466b-9924-417388feae42</xr:TypeId>
+				<xr:ValueId>61f2e84d-01fd-46f6-a0a8-47f0f04e16ed</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Проекты" category="Selection">
-				<xr:TypeId>b1e14d33-bf4c-4f98-b304-32bf9283d3bf</xr:TypeId>
-				<xr:ValueId>9fa102fc-c2ef-4780-a0a7-dff37f61fa98</xr:ValueId>
+				<xr:TypeId>67fb41e2-9620-4412-9f92-8e9df81e7f50</xr:TypeId>
+				<xr:ValueId>48715402-89c9-4b9d-8f1c-c1667c8b6c1c</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Проекты" category="List">
-				<xr:TypeId>0c8dd0f6-db6a-4241-91d0-200250d37a38</xr:TypeId>
-				<xr:ValueId>e1a5f7e9-6dd3-4452-9f0a-3435381d88ff</xr:ValueId>
+				<xr:TypeId>7832a380-c343-4742-b190-85adc1ec93ea</xr:TypeId>
+				<xr:ValueId>8dcd52f0-a49c-46fe-b56f-f0b06ec2f7a9</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Проекты" category="Manager">
-				<xr:TypeId>ad84d47a-b5d1-4d91-a939-252a150a7f15</xr:TypeId>
-				<xr:ValueId>de61c74f-70da-42e8-88c3-83ce3c997322</xr:ValueId>
+				<xr:TypeId>e0fab8b2-2b0e-4521-b228-b49956a30059</xr:TypeId>
+				<xr:ValueId>48418b9f-e692-4a53-93d5-69a35416419e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -42,248 +42,12 @@
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
 			<DescriptionLength>25</DescriptionLength>
-			<CodeType>Number</CodeType>
+			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
-			<StandardAttributes>
-				<xr:StandardAttribute name="PredefinedDataName">
-					<xr:LinkByType/>
-					<xr:FillChecking>DontCheck</xr:FillChecking>
-					<xr:MultiLine>false</xr:MultiLine>
-					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
-					<xr:CreateOnInput>Auto</xr:CreateOnInput>
-					<xr:MaxValue xsi:nil="true"/>
-					<xr:ToolTip/>
-					<xr:ExtendedEdit>false</xr:ExtendedEdit>
-					<xr:Format/>
-					<xr:ChoiceForm/>
-					<xr:QuickChoice>Auto</xr:QuickChoice>
-					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
-					<xr:EditFormat/>
-					<xr:PasswordMode>false</xr:PasswordMode>
-					<xr:DataHistory>Use</xr:DataHistory>
-					<xr:MarkNegatives>false</xr:MarkNegatives>
-					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym/>
-					<xr:Comment/>
-					<xr:FullTextSearch>Use</xr:FullTextSearch>
-					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:nil="true"/>
-					<xr:Mask/>
-					<xr:ChoiceParameters/>
-				</xr:StandardAttribute>
-				<xr:StandardAttribute name="Predefined">
-					<xr:LinkByType/>
-					<xr:FillChecking>DontCheck</xr:FillChecking>
-					<xr:MultiLine>false</xr:MultiLine>
-					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
-					<xr:CreateOnInput>Auto</xr:CreateOnInput>
-					<xr:MaxValue xsi:nil="true"/>
-					<xr:ToolTip/>
-					<xr:ExtendedEdit>false</xr:ExtendedEdit>
-					<xr:Format/>
-					<xr:ChoiceForm/>
-					<xr:QuickChoice>Auto</xr:QuickChoice>
-					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
-					<xr:EditFormat/>
-					<xr:PasswordMode>false</xr:PasswordMode>
-					<xr:DataHistory>Use</xr:DataHistory>
-					<xr:MarkNegatives>false</xr:MarkNegatives>
-					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym/>
-					<xr:Comment/>
-					<xr:FullTextSearch>Use</xr:FullTextSearch>
-					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:nil="true"/>
-					<xr:Mask/>
-					<xr:ChoiceParameters/>
-				</xr:StandardAttribute>
-				<xr:StandardAttribute name="Ref">
-					<xr:LinkByType/>
-					<xr:FillChecking>DontCheck</xr:FillChecking>
-					<xr:MultiLine>false</xr:MultiLine>
-					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
-					<xr:CreateOnInput>Auto</xr:CreateOnInput>
-					<xr:MaxValue xsi:nil="true"/>
-					<xr:ToolTip/>
-					<xr:ExtendedEdit>false</xr:ExtendedEdit>
-					<xr:Format/>
-					<xr:ChoiceForm/>
-					<xr:QuickChoice>Auto</xr:QuickChoice>
-					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
-					<xr:EditFormat/>
-					<xr:PasswordMode>false</xr:PasswordMode>
-					<xr:DataHistory>Use</xr:DataHistory>
-					<xr:MarkNegatives>false</xr:MarkNegatives>
-					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym/>
-					<xr:Comment/>
-					<xr:FullTextSearch>Use</xr:FullTextSearch>
-					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:nil="true"/>
-					<xr:Mask/>
-					<xr:ChoiceParameters/>
-				</xr:StandardAttribute>
-				<xr:StandardAttribute name="DeletionMark">
-					<xr:LinkByType/>
-					<xr:FillChecking>DontCheck</xr:FillChecking>
-					<xr:MultiLine>false</xr:MultiLine>
-					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
-					<xr:CreateOnInput>Auto</xr:CreateOnInput>
-					<xr:MaxValue xsi:nil="true"/>
-					<xr:ToolTip/>
-					<xr:ExtendedEdit>false</xr:ExtendedEdit>
-					<xr:Format/>
-					<xr:ChoiceForm/>
-					<xr:QuickChoice>Auto</xr:QuickChoice>
-					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
-					<xr:EditFormat/>
-					<xr:PasswordMode>false</xr:PasswordMode>
-					<xr:DataHistory>Use</xr:DataHistory>
-					<xr:MarkNegatives>false</xr:MarkNegatives>
-					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym/>
-					<xr:Comment/>
-					<xr:FullTextSearch>Use</xr:FullTextSearch>
-					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:nil="true"/>
-					<xr:Mask/>
-					<xr:ChoiceParameters/>
-				</xr:StandardAttribute>
-				<xr:StandardAttribute name="IsFolder">
-					<xr:LinkByType/>
-					<xr:FillChecking>DontCheck</xr:FillChecking>
-					<xr:MultiLine>false</xr:MultiLine>
-					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
-					<xr:CreateOnInput>Auto</xr:CreateOnInput>
-					<xr:MaxValue xsi:nil="true"/>
-					<xr:ToolTip/>
-					<xr:ExtendedEdit>false</xr:ExtendedEdit>
-					<xr:Format/>
-					<xr:ChoiceForm/>
-					<xr:QuickChoice>Auto</xr:QuickChoice>
-					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
-					<xr:EditFormat/>
-					<xr:PasswordMode>false</xr:PasswordMode>
-					<xr:DataHistory>Use</xr:DataHistory>
-					<xr:MarkNegatives>false</xr:MarkNegatives>
-					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym/>
-					<xr:Comment/>
-					<xr:FullTextSearch>Use</xr:FullTextSearch>
-					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:nil="true"/>
-					<xr:Mask/>
-					<xr:ChoiceParameters/>
-				</xr:StandardAttribute>
-				<xr:StandardAttribute name="Owner">
-					<xr:LinkByType/>
-					<xr:FillChecking>ShowError</xr:FillChecking>
-					<xr:MultiLine>false</xr:MultiLine>
-					<xr:FillFromFillingValue>true</xr:FillFromFillingValue>
-					<xr:CreateOnInput>Auto</xr:CreateOnInput>
-					<xr:MaxValue xsi:nil="true"/>
-					<xr:ToolTip/>
-					<xr:ExtendedEdit>false</xr:ExtendedEdit>
-					<xr:Format/>
-					<xr:ChoiceForm/>
-					<xr:QuickChoice>Auto</xr:QuickChoice>
-					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
-					<xr:EditFormat/>
-					<xr:PasswordMode>false</xr:PasswordMode>
-					<xr:DataHistory>Use</xr:DataHistory>
-					<xr:MarkNegatives>false</xr:MarkNegatives>
-					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym/>
-					<xr:Comment/>
-					<xr:FullTextSearch>Use</xr:FullTextSearch>
-					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:nil="true"/>
-					<xr:Mask/>
-					<xr:ChoiceParameters/>
-				</xr:StandardAttribute>
-				<xr:StandardAttribute name="Parent">
-					<xr:LinkByType/>
-					<xr:FillChecking>DontCheck</xr:FillChecking>
-					<xr:MultiLine>false</xr:MultiLine>
-					<xr:FillFromFillingValue>true</xr:FillFromFillingValue>
-					<xr:CreateOnInput>Auto</xr:CreateOnInput>
-					<xr:MaxValue xsi:nil="true"/>
-					<xr:ToolTip/>
-					<xr:ExtendedEdit>false</xr:ExtendedEdit>
-					<xr:Format/>
-					<xr:ChoiceForm/>
-					<xr:QuickChoice>Auto</xr:QuickChoice>
-					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
-					<xr:EditFormat/>
-					<xr:PasswordMode>false</xr:PasswordMode>
-					<xr:DataHistory>Use</xr:DataHistory>
-					<xr:MarkNegatives>false</xr:MarkNegatives>
-					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym/>
-					<xr:Comment/>
-					<xr:FullTextSearch>Use</xr:FullTextSearch>
-					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:nil="true"/>
-					<xr:Mask/>
-					<xr:ChoiceParameters/>
-				</xr:StandardAttribute>
-				<xr:StandardAttribute name="Description">
-					<xr:LinkByType/>
-					<xr:FillChecking>ShowError</xr:FillChecking>
-					<xr:MultiLine>false</xr:MultiLine>
-					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
-					<xr:CreateOnInput>Auto</xr:CreateOnInput>
-					<xr:MaxValue xsi:nil="true"/>
-					<xr:ToolTip/>
-					<xr:ExtendedEdit>false</xr:ExtendedEdit>
-					<xr:Format/>
-					<xr:ChoiceForm/>
-					<xr:QuickChoice>Auto</xr:QuickChoice>
-					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
-					<xr:EditFormat/>
-					<xr:PasswordMode>false</xr:PasswordMode>
-					<xr:DataHistory>Use</xr:DataHistory>
-					<xr:MarkNegatives>false</xr:MarkNegatives>
-					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym/>
-					<xr:Comment/>
-					<xr:FullTextSearch>Use</xr:FullTextSearch>
-					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:nil="true"/>
-					<xr:Mask/>
-					<xr:ChoiceParameters/>
-				</xr:StandardAttribute>
-				<xr:StandardAttribute name="Code">
-					<xr:LinkByType/>
-					<xr:FillChecking>DontCheck</xr:FillChecking>
-					<xr:MultiLine>false</xr:MultiLine>
-					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
-					<xr:CreateOnInput>Auto</xr:CreateOnInput>
-					<xr:MaxValue xsi:nil="true"/>
-					<xr:ToolTip/>
-					<xr:ExtendedEdit>false</xr:ExtendedEdit>
-					<xr:Format/>
-					<xr:ChoiceForm/>
-					<xr:QuickChoice>Auto</xr:QuickChoice>
-					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
-					<xr:EditFormat/>
-					<xr:PasswordMode>false</xr:PasswordMode>
-					<xr:DataHistory>Use</xr:DataHistory>
-					<xr:MarkNegatives>false</xr:MarkNegatives>
-					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym/>
-					<xr:Comment/>
-					<xr:FullTextSearch>Use</xr:FullTextSearch>
-					<xr:ChoiceParameterLinks/>
-					<xr:FillValue xsi:nil="true"/>
-					<xr:Mask/>
-					<xr:ChoiceParameters/>
-				</xr:StandardAttribute>
-			</StandardAttributes>
 			<Characteristics/>
 			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
@@ -323,7 +87,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="afd8938f-080f-4b1a-a82f-77bf374d5461">
+			<Attribute uuid="5926352e-3860-4f06-9d3a-1f0a6b97c806">
 				<Properties>
 					<Name>Валюта</Name>
 					<Synonym>
@@ -348,7 +112,7 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
+					<FillChecking>ShowError</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
@@ -363,7 +127,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="4693ffd6-bb20-4240-bcf9-24cb93093a3f">
+			<Attribute uuid="ff7d9f3a-0abd-42e9-99f1-c6a3951dde08">
 				<Properties>
 					<Name>ДатаОплаты</Name>
 					<Synonym>
@@ -391,7 +155,7 @@
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
+					<FillChecking>ShowError</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
